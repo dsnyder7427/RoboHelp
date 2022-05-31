@@ -1,9 +1,3 @@
-//<!\[CDATA\[ function reDo() { if (innerWidth != origWidth || innerHeight != origHeight) location.reload(); } if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) { origWidth = innerWidth; origHeight = innerHeight; onresize = reDo; } onerror = null; //\]\]> /\*<!\[CDATA\[\*/ < !-- div.WebHelpPopupMenu { position: absolute; left: 0px; top: 0px; z-index: 4; visibility: hidden; } p.WebHelpNavBar { text-align: right; } --> /\*\]\]>\*/ //<!\[CDATA\[ gRootRelPath = "."; gCommonRootRelPath = "."; gTopicId = "0\_5"; //\]\]>       CABINETS  
-
-CABINETS
-
-Click here to see this page in full context
-
 CABINETS
 ========
 
