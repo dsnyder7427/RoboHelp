@@ -25,7 +25,6 @@ To get a list of cabinets
 
 **Note:** If the CABINET\_ID\_VALUE is 0, it shows all cabinets in the list.
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
 
 ### JSON Successful CABINETS Response style="line-height:13.5pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:black">{</span></span></span></span></span></span></span></p>
   <p style="margin:0in"><span style="font-size:11pt"><span style="background:#fffffe"><span style="line-height:13.5pt"><span style="font-family:Calibri,sans-serif">    <span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:#a31515">&quot;root&quot;</span></span></span><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:black">: {</span></span></span></span></span></span></span></p>
