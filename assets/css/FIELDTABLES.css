@@ -1,0 +1,20 @@
+span.CodeChar {
+    color: #0000FF;
+    font-family: 'Courier New';
+    font-size: 10pt;
+}
+body {
+counter-reset:Numbering02 Numbering03 ;
+    line-height: 1.08;
+    margin-bottom: 8pt;
+    font-size: 11pt;
+    font-family: Calibri;
+}
+.position-relative {
+position:relative;
+}
+span { white-space: pre-wrap;
+}
+ul.Disc {
+    list-style-type: disc;
+}
