@@ -65,7 +65,7 @@
 <span style="font-size: 11.0pt; font-family: Calibri, sans-serif; color: #000000;"><br style="clear: all;" clear="all"/>
 </span> 
 <p style="margin: 0in;"> </p>
-<p class="up_arrow"><span style="font-style: italic; font-weight: bold;"><i><b><a href="#"><img src="assets/images/up_arrow.gif" alt="up_arrow.gif" title="up_arrow.gif" style="border: none;" width="14" height="16" border="0"/></a></b></i></span></p>
+
 <h2><a id="JSON_Successful_FONTS_Response"></a>JSON Successful FONTS 
  Response</h2>
 <p style="margin-bottom: 0in; line-height: 13.5pt; background-color: #fffffe;"><span style="font-size: 9.0pt; font-family: Consolas; color: #000000;">{</span></p>
