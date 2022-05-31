@@ -1,101 +1,39 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+//<!\[CDATA\[ function reDo() { if (innerWidth != origWidth || innerHeight != origHeight) location.reload(); } if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) { origWidth = innerWidth; origHeight = innerHeight; onresize = reDo; } onerror = null; //\]\]> /\*<!\[CDATA\[\*/ < !-- div.WebHelpPopupMenu { position: absolute; left: 0px; top: 0px; z-index: 4; visibility: hidden; } p.WebHelpNavBar { text-align: right; } --> /\*\]\]>\*/ //<!\[CDATA\[ gRootRelPath = "."; gCommonRootRelPath = "."; gTopicId = "0\_5"; //\]\]>       CABINETS  
 
-  <script type="text/javascript" language="JavaScript">
-    //<![CDATA[
-    function reDo() {
-      if (innerWidth != origWidth || innerHeight != origHeight)
-        location.reload();
-    }
-    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
-      origWidth = innerWidth;
-      origHeight = innerHeight;
-      onresize = reDo;
-    }
-    onerror = null;
-  //]]>
-  </script>
-  <style type="text/css">/*<![CDATA[*/
+CABINETS
 
-    < !-- div.WebHelpPopupMenu {
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      z-index: 4;
-      visibility: hidden;
-    }
+Click here to see this page in full context
 
-    p.WebHelpNavBar {
-      text-align: right;
-    }
+CABINETS
+========
 
-    -->
-  
-/*]]>*/</style>
+[CABINETS\_Example](#CABINETS_Example)
 
-  <script type="text/javascript">//<![CDATA[
+[CABINETS\_Parameters](#CABINETS_Parameters)
 
-    gRootRelPath = ".";
-    gCommonRootRelPath = ".";
-    gTopicId = "0_5";
-  
-//]]></script>
+[JSON\_Successful\_CABINETS\_Response](#JSON_Successful_CABINETS_Response)
 
-  <script type="text/javascript" src="./template/scripts/rh.min.js"></script>
-  <script type="text/javascript" src="./template/scripts/common.min.js"></script>
-  <script type="text/javascript" src="./template/scripts/topic.min.js"></script>
-  <script type="text/javascript" src="./template/scripts/topicwidgets.min.js"></script>
-<script type="text/javascript" src="./whxdata/projectsettings.js"></script>
-  <link rel="stylesheet" type="text/css" href="./template/styles/topic.min.css"/>
-  <link rel="stylesheet" type="text/css" href="./template/Blue_Worldox/topicheader.css"/>
-  <meta name="topic-status" content="Draft"/>
+[JSON\_Failed\_CABINETS\_Response](#JSON_Failed_CABINETS_Response)
 
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta name="OriginalFile" content="CABINETS.DOCX"/>
-  <meta name="generator" content="Adobe RoboHelp 2020"/>
-  <title>CABINETS</title>
-  <link rel="StyleSheet" href="assets/css/htmlhelp.css" type="text/css"/>
-  <meta name="rh-index-keywords" content="profile groups (see also Cabinets),Cabinets,CABINETS command"/>
-</head>
+_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
 
-<body style="word-wrap: break-word;">
-  <div class="topic-header rh-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
-    <div class="logo">
-    </div>
-    <div class="nav">
-      <div class="title" title="CABINETS">
-        <span>CABINETS</span>
-      </div>
-      <div class="gotohome" title="Click here to see this page in full context">
-        <span>Click here to see this page in full context</span>
-      </div>
-    </div>
-  </div>
-  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+### CABINETS Example
 
+The CABINETS command retrieves a list of Cabinets.
 
+/cgi-bin/wdwebcgi.exe?CABINETS&wd\_SID{{session}}&html=/v4/cabinets/cabinets.json&wd\_CABINET\_ID\_VALUE={{List of Cabinet IDs}}
 
-  <h1>CABINETS</h1>
-  <p class="Bullet_list"><a href="#CABINETS_Example">CABINETS_Example</a></p>
-  <p class="Bullet_list"><a href="#CABINETS_Parameters">CABINETS_Parameters</a></p>
-  <p class="Bullet_list"><a href="#JSON_Successful_CABINETS_Response">JSON_Successful_CABINETS_Response</a></p>
-  <p class="Bullet_list"><a href="#JSON_Failed_CABINETS_Response">JSON_Failed_CABINETS_Response</a></p>
-  <p class="up_arrow"><span style="font-style: italic; font-weight: bold;"><i><b><a href="#"><img alt="up_arrow.gif" border="0" height="16" src="assets/images/up_arrow.gif" style="border: none;" title="up_arrow.gif" width="14"/></a></b></i></span></p>
-  <p class="up_arrow"> </p>
-  <h3><a id="CABINETS_Example"></a>CABINETS Example</h3>
-  <p>The CABINETS command retrieves a list of Cabinets.</p>
-  <p class="Code">/cgi-bin/wdwebcgi.exe?CABINETS&amp;wd_SID{{session}}&amp;html=/v4/cabinets/cabinets.json&amp;wd_CABINET_ID_VALUE={{List of Cabinet IDs}}</p>
-  <h3><a id="CABINETS_Parameters"></a>CABINETS Parameters</h3>
-  <p class="Code">/api/cabinets/ cabinets.json</p>
-  <p style="text-indent: 30.6pt;">To get a list of cabinets</p>
-  <p class="Note"><b>Note:</b> If the <span style="font-size: 9.0pt;">CABINET_ID_VALUE</span> is <span style="font-size: 9.0pt;">0</span>, it shows all cabinets in the list.</p>
-  <p> </p>
-  <p class="up_arrow"><span style="font-style: italic; font-weight: bold;"><i><b><a href="#"><img alt="up_arrow.gif" border="0" height="16" src="assets/images/up_arrow.gif" style="border: none;" title="up_arrow.gif" width="14"/></a></b></i></span></p>
-  <p class="up_arrow"> </p>
-  <h3><a id="JSON_Successful_CABINETS_Response"></a>JSON Successful CABINETS Response</h3>
-  <p style="margin: 0in; line-height: 13.5pt; background-color: #fffffe;"><span style="font-size: 9.0pt; font-family: Consolas; color: #000000;">      </span></p>
-  <p style="margin:0in"><span style="font-size:11pt"><span style="background:#fffffe"><span style="line-height:13.5pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:black">{</span></span></span></span></span></span></span></p>
+### CABINETS Parameters
+
+/api/cabinets/ cabinets.json
+
+To get a list of cabinets
+
+**Note:** If the CABINET\_ID\_VALUE is 0, it shows all cabinets in the list.
+
+_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
+
+### JSON Successful CABINETS Response style="line-height:13.5pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:black">{</span></span></span></span></span></span></span></p>
   <p style="margin:0in"><span style="font-size:11pt"><span style="background:#fffffe"><span style="line-height:13.5pt"><span style="font-family:Calibri,sans-serif">    <span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:#a31515">&quot;root&quot;</span></span></span><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:black">: {</span></span></span></span></span></span></span></p>
   <p style="margin:0in"><span style="font-size:11pt"><span style="background:#fffffe"><span style="line-height:13.5pt"><span style="font-family:Calibri,sans-serif">        <span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:#a31515">&quot;errorStatus&quot;</span></span></span><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:black">: {</span></span></span></span></span></span></span></p>
   <p style="margin:0in"><span style="font-size:11pt"><span style="background:#fffffe"><span style="line-height:13.5pt"><span style="font-family:Calibri,sans-serif">            <span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:#a31515">&quot;List_Count&quot;</span></span></span><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:black">: </span></span></span><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:#0451a5">&quot;1&quot;</span></span></span><span style="font-size:9.0pt"><span style="font-family:Consolas"><span style="color:black">,</span></span></span></span></span></span></span></p>
