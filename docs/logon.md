@@ -4,7 +4,7 @@ LOGON
 
 The LOGON command logs you into Worldox Web. It is a POST request.
 
-[LOGON\_Endpoint](#LOGON_Endpoint)
+[LOGON\_Endpoint](#LOGON_Endpoint.html) 
 
 [Request\_Body](#Request_Body)
 
