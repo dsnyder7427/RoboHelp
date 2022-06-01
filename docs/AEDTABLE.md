@@ -186,22 +186,4 @@
   <p style="margin: 0in; line-height: 13.5pt; background-color: #fffffe;"><span style="font-size: 9.0pt; font-family: Consolas; color: #000000;">        }</span></p>
   <p style="margin: 0in; line-height: 13.5pt; background-color: #fffffe;"><span style="font-size: 9.0pt; font-family: Consolas; color: #000000;">    }</span></p>
   <p style="margin: 0in; line-height: 13.5pt; background-color: #fffffe;"><span style="font-size: 9.0pt; font-family: Consolas; color: #000000;">}</span></p>
-  <p class="up_arrow"><span style="font-style: italic; font-weight: bold;"><i><b><a href="#"><img alt="up_arrow.gif" border="0" height="16" src="assets/images/up_arrow.gif" style="border: none;" title="up_arrow.gif" width="14" /></a></b></i></span></p>
-  <p class="up_arrow"> </p>
-  <p>
-    <script type="text/javascript">
-      //<![CDATA[
-      var mailSubject = 'Useful online help topic';
-      var mailBody = 'This online help page might help: ' + location.href;
-      var mailDisplay = 'Email this topic to another user.';
-      document.write(
-        '<a href="mailto:yourname@yourSite.com' +
-        '?subject=' + escape(mailSubject) +
-        '&body=' + escape(mailBody) +
-        '">' + mailDisplay + '<\/a>'
-      );
-      //]]>
-    </script>
-  </p>
-</body>
-</html>
+ 
