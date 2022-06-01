@@ -69,18 +69,4 @@
 </td>
 </tr>
 </tbody></table>
-<p><script type="text/javascript">
-//<![CDATA[
-var mailSubject = 'Useful online help topic'; 
-var mailBody    = 'This online help page might help: ' + location.href; 
-var mailDisplay = 'Email this topic to another user.'; 
-document.write( 
-    '<a href="mailto:yourname@yourSite.com' 
-    + '?subject=' + escape(mailSubject) 
-    + '&body=' + escape(mailBody) 
-    + '">' + mailDisplay + '<\/a>' 
-    );
-//]]>
-</script></p>
 
-</body></html>
