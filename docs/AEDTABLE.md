@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="OriginalFile" content="AEDTABLE.DOCX" />
-  <meta name="generator" content="Adobe RoboHelp 2020" />
-  <title>AEDTABLE</title>
-  <link rel="StyleSheet" href="assets/css/htmlhelp.css" type="text/css" />
-  <meta name="rh-index-keywords" content="Table commands,Edit Table,Add Table,Delete Table,AEDTABLE command" />
-</head>
 <body style="word-wrap: break-word;">
   <h1>AEDTABLE (Add, Edit and Delete Table)</h1>
   <p>Add, edit or delete tables.</p>
