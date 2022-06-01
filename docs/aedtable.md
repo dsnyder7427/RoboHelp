@@ -1,5 +1,3 @@
-   AEDTABLE  
-
 AEDTABLE (Add, Edit and Delete Table)
 =====================================
 
