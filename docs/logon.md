@@ -220,6 +220,3 @@ Note that when the response has failed, the ErrorCount value has a number.
 
 }
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
-//<!\[CDATA\[ var mailSubject = 'Useful online help topic'; var mailBody = 'This online help page might help: ' + location.href; var mailDisplay = 'Email this topic to another user.'; document.write( '<a href="mailto:yourname@yourSite.com' + '?subject=' + escape(mailSubject) + '&body=' + escape(mailBody) + '">' + mailDisplay + '<\\/a>' ); //\]\]>
