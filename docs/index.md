@@ -1,5 +1,3 @@
-       Worldox Web 3.x API Overview 
-
 Worldox Web 3.x API Overview
 ============================
 
