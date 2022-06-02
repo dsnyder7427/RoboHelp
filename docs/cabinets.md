@@ -1,34 +1,33 @@
 CABINETS
 ========
 
-[CABINETS\_Example](#CABINETS_Example)
+[CABINETS Example](#cabinets-example)
 
-[CABINETS\_Parameters](#CABINETS_Parameters)
+[CABINETS Parameters](#cabinets-parameters)
 
-[JSON\_Successful\_CABINETS\_Response](#JSON_Successful_CABINETS_Response)
+[JSON Successful CABINET Response](#json-successful-cabinets-response)
 
-[JSON\_Failed\_CABINETS\_Response](#JSON_Failed_CABINETS_Response)
+[JSON Failed CABINETS Response](#json-failed-cabinets-response)
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
-### CABINETS Example
+## CABINETS Example
 
 The CABINETS command retrieves a list of Cabinets.
 
 /cgi-bin/wdwebcgi.exe?CABINETS&wd\_SID{{session}}&html=/v4/cabinets/cabinets.json&wd\_CABINET\_ID\_VALUE={{List of Cabinet IDs}}
 
-### CABINETS Parameters
+## CABINETS Parameters
 
+```
 /api/cabinets/ cabinets.json
+```
 
 To get a list of cabinets
 
 **Note:** If the CABINET\_ID\_VALUE is 0, it shows all cabinets in the list.
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
+## JSON Successful CABINETS Response
 
-### JSON Successful CABINETS Response
-
+```
 {
 
     "root": {
@@ -314,11 +313,11 @@ _**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
     }
 
 }
+```
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
+## JSON Failed CABINETS Response
 
-### JSON Failed CABINETS Response
-
+```
 "root": {
 
         "errorStatus": {
@@ -388,3 +387,4 @@ _**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
     }
 
 }
+```
