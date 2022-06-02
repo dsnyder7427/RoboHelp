@@ -1,5 +1,5 @@
 
-LOGON
+#LOGON
 =====
 
 The LOGON command logs you into Worldox Web. It is a POST request.
@@ -123,7 +123,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 }
 
 
-# JSON Failed LOGON Response
+##JSON Failed LOGON Response
 
 Note that when the response has failed, the ErrorCount value has a number.
 
