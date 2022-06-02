@@ -51,7 +51,7 @@
 <td style="border-top: Solid 1px #464646; border-right: Solid 1px #464646; border-bottom: Solid 1px #464646; padding-right: 4px; padding-left: 6px;">
 <p class="Table_text"><a href="mailto:support@worldox.com">support@worldox.com</a></p>
 </td>
-</tr>
+  </tr>
 <tr>
 <td style="border-left: Solid 1px #595959; border-right: Solid 1px #595959; border-bottom: Solid 1px #595959; padding-right: 4px; padding-left: 8px;">
 <p class="Table_text" style="font-style: normal;">Upgrades</p>
