@@ -9,9 +9,9 @@ The CATLIST command lists the categories for a given path.
 
 [JSON Successful CATLIST Response](#json-successful-catlist-response)
 
-[JSON Failed CATLIST Response](#Jjson-failed-catlist-response)
+[JSON Failed CATLIST Response](#json-failed-catlist-response)
 
-### CATLIST Example
+## CATLIST Example
 
 ```
 /cgi-bin/wdwebcgi.exe?CATLIST&wd\_SID={{session}}
@@ -19,7 +19,7 @@ The CATLIST command lists the categories for a given path.
 
 ## CATLIST Parameters
 
-wd\_SID
+`wd\_SID`
 
 The Worldox session ID
 
@@ -39,13 +39,16 @@ HTMLOnFail
 
 This is the page to return on a failed CATLIST.
 
+```
 v4\\categories\\categories-list.json
+```
 
 **Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
 
-### JSON Successful CATLIST Response
+_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
 
-```
+## JSON Successful CATLIST Response
+
 {
 
     "root": {
@@ -519,7 +522,6 @@ v4\\categories\\categories-list.json
     }
 
 }
-```
 
 ## JSON Failed CATLIST Response
 
