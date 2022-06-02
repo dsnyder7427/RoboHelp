@@ -1,7 +1,14 @@
 # CHECKIN
 
-
 The CHECKIN command checks in a file at the given record number and list ID. It is a GET request.
+
+[CHECKIN Example](#checkin-example)
+
+[CHECKIN Parameters](#checkin-parameters)
+
+[JSON Successful CHECKIN Response](#json-successful-checkin-response)
+
+[JSON Failed CHECKIN Response](#json-failed-checkin-response)
 
 ## CHECKIN Example
 `{Worldox Web Domain}  + 'cgi-bin/wdwebcgi.exe?CHECKIN+wd_SID='  + {Worldox Web User Session) + '&Wd_List_RecNum=' + x.RN + '&wd_List_ID=' + x.LID + '&HTMLOnOK=/v4/fileActions/fileStatus.json&HTMLOnFail=/v4/fileActions/fileStatus.json'`
