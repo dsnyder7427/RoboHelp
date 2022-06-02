@@ -4,13 +4,13 @@
 
 The LOGON command logs you into Worldox Web. It is a POST request.
 
-[logon](#LOGON-Endpoint)
+[LOGON Endpoint](#LOGON-Endpoint)
 
-[logon](#Request-Body)
+[Request Body](#Request-Body)
 
-[logon](#JSON-Successful-LOGON-Response)
+[JSON Successful LOGON Response](#JSON-Successful-LOGON-Response)
 
-[logon](#JSON-Failed-LOGON-Response)
+[JSON Failed LOGON Response](#JSON-Failed-LOGON-Response)
 
 # LOGON Endpoint
 ---------------
