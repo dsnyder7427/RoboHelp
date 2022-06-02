@@ -1,24 +1,24 @@
 
-LOGON
+# LOGON
 =====
 
 The LOGON command logs you into Worldox Web. It is a POST request.
 
-[LOGON\_Endpoint](##LOGON_Endpoint)
+[LOGON Endpoint](#LOGON-Endpoint)
 
-[Request\_Body](##Request_Body)
+[Request Body](#Request-Body)
 
-[JSON\_Successful\_LOGON\_Response](#JSON_Successful_LOGON_Response)
+[JSON Successful LOGON Response](#JSON-Successful-LOGON-Response)
 
 [JSON Failed LOGON Response](#JSON-Failed-LOGON-Response)
 
-## LOGON Endpoint
+# LOGON Endpoint
 ---------------
 
 POST /cgi-bin/wdwebcgi.exe?LOGON/cgi-bin/wdwebcgi.exe?LOGON
 
 
-## Request Body
+# Request Body
 ------------
 
 HTMLOnOK
@@ -46,7 +46,7 @@ wd\_User\_Password\_Value
 Worldox Web User Password
 
 
-## JSON Successful LOGON Response
+# JSON Successful LOGON Response
 
 Note that when the response is successful, the ErrorCount value is blank.
 
@@ -123,7 +123,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 }
 
 
-##JSON Failed LOGON Response
+# JSON Failed LOGON Response
 
 Note that when the response has failed, the ErrorCount value has a number.
 
