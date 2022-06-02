@@ -1,7 +1,7 @@
 Worldox Web 3.x API Overview
 ============================
 
-[Working_with APIs](#working-with_APIs)
+[Working with APIs](#working-with_APIs)
 
 [API Requests](#api-requests)
 
