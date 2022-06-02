@@ -3,18 +3,19 @@ AEDTABLE (Add, Edit and Delete Table)
 
 Add, edit or delete tables.
 
-[AEDTABLE\_Parameters](#AEDTABLE_Parameters)
+[AEDTABLE Parameters](#aedtable-parameters)
 
-[AEDTABLE\_Usage](#AEDTABLE_Usage)
+[AEDTABLE_Usage](#aedtable_usage)
 
-[AEDTABLE\_Possible\_errors](#AEDTABLE_Possible_errors)
+[AEDTABLE Possible Erors](#aedtable_possible_errors)
 
-[JSON\_Successful\_AEDTABLE\_Response](#JSON_Successful_AEDTABLE_Response)
+[JSON Successful AEDTABLE Response](#json_successful_aedtable_response)
 
-[JSON\_Failed\_AEDTABLE\_Response](#JSON_Failed_AEDTABLE_Response)
+[JSON Failed AEDTABLE Response](#json_failed_aedtable_response)
 
-### AEDTABLE Parameters
+## AEDTABLE Parameters
 
+```
 wd\_FILE\_PROFILEGROUP\_VALUE = Number: Cabinet#
 
 wd\_FIELD\_NUMBER\_VALUE = Number: 1-7
@@ -34,10 +35,9 @@ wd\_FILE\_FIELD4DESC\_VALUE = String: Table field description
 wd\_FILE\_FIELD5DESC\_VALUE = String: Table field description  
 wd\_FILE\_FIELD6DESC\_VALUE = String: Table field description  
 wd\_FILE\_FIELD7DESC\_VALUE = String: Table field description
+```
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
-### AEDTABLE Usage
+## AEDTABLE Usage
 
 wd\_FIELD\_NUMBER\_VALUE determines what table is being set.
 
@@ -49,10 +49,8 @@ If the field has parent(s), set the parent codes accordingly. (Otherwise, you do
 
 Global codes are created if no parent is defined.
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
-### AEDTABLE Possible errors
-
+## AEDTABLE Possible errors
+```
 WDRC\_AEDTABLE\_PARENT\_INVALID  
 WDRC\_AEDTABLE\_CODE\_INVALID  
 WDRC\_AEDTABLE\_CODE\_TOOLONG  
@@ -66,11 +64,11 @@ WDRC\_AEDTABLE\_FAIL\_OPEN
 WDRC\_AEDTABLE\_FAIL\_ADD  
 WDRC\_AEDTABLE\_FAIL\_EDIT  
 WDRC\_AEDTABLE\_FAIL\_DELETE
+```
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
+## JSON Successful AEDTABLE Response
 
-### JSON Successful AEDTABLE Response
-
+```
 {
 
     "root": {
@@ -186,11 +184,10 @@ _**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
     }
 
 }
+```
+## JSON Failed AEDTABLE Response
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
-### JSON Failed AEDTABLE Response
-
+```
 {
 
     "root": {
@@ -306,4 +303,4 @@ _**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
     }
 
 }
-
+```
