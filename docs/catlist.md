@@ -3,21 +3,21 @@ CATLIST
 
 The CATLIST command lists the categories for a given path.
 
-[CATLIST\_Example](#CATLIST_Example)
+[CATLIST Example](#catlist-example)
 
-[CABINETS\_Parameters](CABINETS.htm#CABINETS_Parameters)
+[CATLIST Parameters](#catlist-parameters)
 
-[JSON\_Successful\_CATLIST\_Response](#JSON_Successful_CATLIST_Response)
+[JSON Successful CATLIST Response](#json-successful-catlist-response)
 
-[JSON\_Failed\_CATLIST\_Response](#JSON_Failed_CATLIST_Response)
+[JSON Failed CATLIST Response](#Jjson-failed-catlist-response)
 
 ### CATLIST Example
 
+```
 /cgi-bin/wdwebcgi.exe?CATLIST&wd\_SID={{session}}
+```
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
-### CATLIST Parameters
+## CATLIST Parameters
 
 wd\_SID
 
@@ -43,10 +43,9 @@ v4\\categories\\categories-list.json
 
 **Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
 ### JSON Successful CATLIST Response
 
+```
 {
 
     "root": {
@@ -520,11 +519,11 @@ _**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
     }
 
 }
+```
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
+## JSON Failed CATLIST Response
 
-### JSON Failed CATLIST Response
-
+```
 {
 
     "root": {
@@ -594,3 +593,4 @@ _**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
     }
 
 }
+```
