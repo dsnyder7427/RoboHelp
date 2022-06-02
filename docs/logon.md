@@ -40,7 +40,6 @@ This is the page to return on a failed LOGON.
 
 **Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
 
-```
 wd_User_Code_Value
 
 Worldox Web Server User Code
@@ -48,7 +47,7 @@ Worldox Web Server User Code
 `wd_User_Password_Value`
 
 Worldox Web User Password
-```
+
 
 
 ## JSON Successful LOGON Response
