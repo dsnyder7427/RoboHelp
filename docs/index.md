@@ -45,8 +45,8 @@ Worldox is a dynamic environment with many users performing many tasks (saving, 
 
 Note that the following requests are used in the API:
 
--POST requests create new objects or send data to be handled
+- POST requests create new objects or send data to be handled
 
--GET requests retrieve data
+- GET requests retrieve data
 
 
