@@ -5,13 +5,13 @@ Add, edit or delete tables.
 
 [AEDTABLE Parameters](#aedtable-parameters)
 
-[AEDTABLE_Usage](#aedtable_usage)
+[AEDTABLE Usage](#aedtable-usage)
 
-[AEDTABLE Possible Erors](#aedtable_possible_errors)
+[AEDTABLE Possible Erors](#aedtable-possible-errors)
 
-[JSON Successful AEDTABLE Response](#json_successful_aedtable_response)
+[JSON Successful AEDTABLE Response](#json-successful-aedtable-response)
 
-[JSON Failed AEDTABLE Response](#json_failed_aedtable_response)
+[JSON Failed AEDTABLE Response](#json-failed-aedtable-response)
 
 ## AEDTABLE Parameters
 
