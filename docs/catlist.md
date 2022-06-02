@@ -19,7 +19,7 @@ The CATLIST command lists the categories for a given path.
 
 ## CATLIST Parameters
 
-`wd\_SID`
+`wd_SID`
 
 The Worldox session ID
 
