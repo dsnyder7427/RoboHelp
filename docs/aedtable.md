@@ -16,6 +16,25 @@ Add, edit or delete tables.
 ## AEDTABLE Parameters
 
 ```
+wd_FILE_PROFILEGROUP_VALUE = Number: Cabinet#
+wd_FIELD_NUMBER_VALUE = Number: 1-7
+wd_FILE_FIELD1_VALUE = String: Table field code
+wd_FILE_FIELD2_VALUE = String: Table field code
+wd_FILE_FIELD3_VALUE = String: Table field code
+wd_FILE_FIELD4_VALUE = String: Table field code
+wd_FILE_FIELD5_VALUE = String: Table field code
+wd_FILE_FIELD6_VALUE = String: Table field code
+wd_FILE_FIELD7_VALUE = String: Table field code
+wd_FILE_FIELD1DESC_VALUE = String: Table field description
+wd_FILE_FIELD2DESC_VALUE = String: Table field description
+wd_FILE_FIELD3DESC_VALUE = String: Table field description
+wd_FILE_FIELD4DESC_VALUE = String: Table field description
+wd_FILE_FIELD5DESC_VALUE = String: Table field description
+wd_FILE_FIELD6DESC_VALUE = String: Table field description
+wd_FILE_FIELD7DESC_VALUE = String: Table field description
+```
+
+```
 wd\_FILE\_PROFILEGROUP\_VALUE = Number: Cabinet#
 
 wd\_FIELD\_NUMBER\_VALUE = Number: 1-7
