@@ -37,7 +37,7 @@ V4\\authentication\\login.json
 
 **Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
 
-'''
+```
 wd\_User\_Code\_Value
 
 Worldox Web Server User Code
@@ -45,7 +45,7 @@ Worldox Web Server User Code
 wd\_User\_Password\_Value
 
 Worldox Web User Password
-'''
+```
 
 
 ## JSON Successful LOGON Response
