@@ -10,7 +10,7 @@ The LOGON command logs you into Worldox Web. It is a POST request.
 
 [JSON\_Successful\_LOGON\_Response](##JSON_Successful_LOGON_Response)
 
-[JSON\_Failed\_LOGON\_Response](##JSON_Failed_LOGON_Response)
+[JSON\_Failed\_LOGON\_Response](##JSON-Failed-LOGON-Response)
 
 ## LOGON Endpoint
 ---------------
