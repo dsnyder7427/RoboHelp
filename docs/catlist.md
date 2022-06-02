@@ -23,19 +23,19 @@ The CATLIST command lists the categories for a given path.
 
 The Worldox session ID
 
-wd\_File\_Path\_Value
+`wd_File_Path_Value`
 
 The path to look up categories in
 
-HTMLOnOK
+`HTMLOnOK`
 
 This is the page to return on a successful call to CATLIST.
 
-v4\\categories\\categories-list.json
+`v4\\categories\\categories-list.json`
 
 **Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
 
-HTMLOnFail
+`HTMLOnFail`
 
 This is the page to return on a failed CATLIST.
 
@@ -45,10 +45,9 @@ v4\\categories\\categories-list.json
 
 **Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
 ## JSON Successful CATLIST Response
 
+```
 {
 
     "root": {
