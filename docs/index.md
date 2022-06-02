@@ -1,9 +1,9 @@
 Worldox Web 3.x API Overview
 ============================
 
-[Working\_with\_APIs](#Working_with_APIs)
+[Working_with APIs](#working-with_APIs)
 
-[API\_Requests](#API_Requests)
+[API Requests](#api-requests)
 
 Worldox Web is a web-based extension for the Worldox document management system. WD/Web Mobile provides authorized users with secure, controlled access to documents managed within the Worldox system over the Internet via standard browsers.
 
@@ -13,9 +13,8 @@ No plug-ins or additional software are required. For Administrators, there are s
 
 This guide describes Worldox Web’s APIs (Application Program Interfaces) or function calls that allow you to manipulate the Worldox interface or access its database directly.
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
 
-Working with APIs
+## Working with APIs
 -----------------
 
 The APIs are low-level functions designed and built by programmers primarily for other programmers. They offer a great deal of control but generally forsake error control for compactness and efficiency. Therefore, error control and validation are left up to the programmer. It is critically important to employ generally accepted programming practices, such as variable initialization (beyond merely declaring variables) and checking function return codes before accepting values passed back in output variables.
@@ -42,16 +41,12 @@ You must destroy all lists when finished with them with the WDAPI\_DestroyList f
 
 Worldox is a dynamic environment with many users performing many tasks (saving, creating, editing, and so on) on many files – often simultaneously. Therefore, you cannot make assumptions about the “freshness” of data since it only affects tables and files. For details, see the WDAPI\_ReReadRecord function in the Worldox SDK Developer Guide v4.0. Please note that rereadrecord is used in the SERVE section of this guide.
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
-
 ### API Requests
 
 Note that the following requests are used in the API:
 
-POST requests create new objects or send data to be handled
+-POST requests create new objects or send data to be handled
 
-GET requests retrieve data
+-GET requests retrieve data
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
 
-//<!\[CDATA\[ var mailSubject = 'Useful online help topic'; var mailBody = 'This online help page might help: ' + location.href; var mailDisplay = 'Email this topic to another user.'; document.write( '<a href="mailto:yourname@yourSite.com' + '?subject=' + escape(mailSubject) + '&body=' + escape(mailBody) + '">' + mailDisplay + '<\\/a>' ); //\]\]>
