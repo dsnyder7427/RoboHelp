@@ -4,13 +4,13 @@ LOGON
 
 The LOGON command logs you into Worldox Web. It is a POST request.
 
-[LOGON\_Endpoint](#LOGON_Endpoint)
+[LOGON\_Endpoint](# LOGON_Endpoint)
 
 [Request\_Body](#Request_Body)
 
-[JSON\_Successful\_LOGON\_Response](###JSON_Successful_LOGON_Response)
+[JSON\_Successful\_LOGON\_Response](# JSON_Successful_LOGON_Response)
 
-[JSON\_Failed\_LOGON\_Response](######JSON_Failed_LOGON_Response)
+[JSON\_Failed\_LOGON\_Response](# JSON_Failed_LOGON_Response)
 
 # LOGON Endpoint
 ---------------
@@ -27,7 +27,7 @@ This is the page to return on a successful call to LOGON.
 
 v4\\authentication\\login.json
 
-**Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
+** Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
 
 HTMLOnFail
 
@@ -45,9 +45,8 @@ wd\_User\_Password\_Value
 
 Worldox Web User Password
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
 
-#JSON Successful LOGON Response
+# JSON Successful LOGON Response
 
 Note that when the response is successful, the ErrorCount value is blank.
 
@@ -123,7 +122,6 @@ Note that when the response is successful, the ErrorCount value is blank.
 
 }
 
-_**[![up_arrow.gif](assets/images/up_arrow.gif "up_arrow.gif")](#)**_
 
 # JSON Failed LOGON Response
 
