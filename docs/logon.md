@@ -25,9 +25,11 @@ HTMLOnOK
 
 This is the page to return on a successful call to LOGON.
 
+```
 v4\\authentication\\login.json
+```
 
-** Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
+**Note:** api is deprecated but still can be used. Going forward v4 is the best practice.
 
 HTMLOnFail
 
