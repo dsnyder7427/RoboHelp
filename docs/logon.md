@@ -1,5 +1,5 @@
 
-#LOGON
+LOGON
 =====
 
 The LOGON command logs you into Worldox Web. It is a POST request.
