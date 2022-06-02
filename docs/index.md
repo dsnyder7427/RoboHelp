@@ -41,7 +41,7 @@ You must destroy all lists when finished with them with the WDAPI\_DestroyList f
 
 Worldox is a dynamic environment with many users performing many tasks (saving, creating, editing, and so on) on many files – often simultaneously. Therefore, you cannot make assumptions about the “freshness” of data since it only affects tables and files. For details, see the WDAPI\_ReReadRecord function in the Worldox SDK Developer Guide v4.0. Please note that rereadrecord is used in the SERVE section of this guide.
 
-### API Requests
+## API Requests
 
 Note that the following requests are used in the API:
 
