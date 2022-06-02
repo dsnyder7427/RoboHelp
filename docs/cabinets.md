@@ -13,7 +13,9 @@ CABINETS
 
 The CABINETS command retrieves a list of Cabinets.
 
+```
 /cgi-bin/wdwebcgi.exe?CABINETS&wd\_SID{{session}}&html=/v4/cabinets/cabinets.json&wd\_CABINET\_ID\_VALUE={{List of Cabinet IDs}}
+```
 
 ## CABINETS Parameters
 
