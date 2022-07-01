@@ -6,7 +6,15 @@ The FINDFILES command is the Worldox search command. It is a GET request. It is 
 
 [FINDFILES Parameters](#findfiles-parameters)
 
+[FINDFILES Sort Values](#findfiles-sort-values)
+
+[JSON Response Keys for FINDFILES](#json-response-keys-for-findfiles)
+
+[JSON Response Keys for FINDFILES](#json-response-keys-for-findfiles)
+
 [JSON Successful FINDFILES Response](#json-successful-findfiles-response)
+
+[Npte About Successful JSON FINDFILES Response](#note-about-sucessful-json-findfiles-response)
 
 [JSON Failed FINDFILES Response](#json-failed-findfiles-response)
 
