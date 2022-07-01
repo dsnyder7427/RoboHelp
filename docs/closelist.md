@@ -33,7 +33,8 @@ This is the page to return on a failed CLOSELIST.
 ## JSON Successful CLOSELIST Response
 
 Note that when the response is successful, the `ErrorCount` value is blank. 
-```{
+
+``` {
     "root": {
         "errorStatus": {
             "ErrorCount": "",
