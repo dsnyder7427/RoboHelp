@@ -45,7 +45,9 @@ Note that when the response is successful, the `ErrorCount` value is blank.
         },
         "data": ""
     }
-}```## JSON Failed CLOSELIST Response
+}```
+
+## JSON Failed CLOSELIST Response
 
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 ```{
