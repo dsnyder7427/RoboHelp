@@ -65,6 +65,7 @@ WDRC_AEDTABLE_FAIL_DELETE
 ```
 
 ## JSON Successful AEDTABLE Response
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
