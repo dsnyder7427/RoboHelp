@@ -45,4 +45,19 @@ Note that when the response is successful, the `ErrorCount` value is blank.
         },
         "data": ""
     }
+}```## JSON Failed CLOSELIST Response
+
+Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+```{
+    "root": {
+        "errorStatus": {
+            "ErrorCount": "1",
+            "wd_Error_RCID": "8380",
+            "wd_Error_RCTX": "WDRC_LISTID_UNDEFINED",
+            "wd_Error_MSG": "Error no List ID\nYour request returned without a 'List ID', please refresh.\n\n\n\n\nlock, wdInfo\ncloseCircle, wdErrorIco\n\nRefresh\n",
+            "wd_Error_VAR": "",
+            "wd_Error_VAL": ""
+        },
+        "data": ""
+    }
 }```
