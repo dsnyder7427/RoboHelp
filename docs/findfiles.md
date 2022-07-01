@@ -73,8 +73,7 @@ The following table describes the available flags for `wd_List_Rename_Flags`.
 | &quot;FilePathReal&quot;, | &quot;%UNCPG\_PATHFILE%&quot;, | Physical path of file |
 | &quot;LN&quot;, | &quot;%L#%&quot;, | File offset |
 | &quot;RN&quot;, | &quot;%R#%&quot;, | File record number |
-| &quot;LID&quot;, | &quot;^wd\_List\_ID^&quot;, | List ID of current list
- |
+| &quot;LID&quot;, | &quot;^wd\_List\_ID^&quot;, | List ID of current list |
 | &quot;Field1&quot;, | &quot;%FIELD1%&quot;, | Field 1 code |
 | &quot;Field1Desc&quot;, | &quot;%FIELD1DESC%&quot;, | Field 1 description |
 | &quot;Field1Name&quot;, | &quot;%Field1Name%&quot;, | Field 1 name |
