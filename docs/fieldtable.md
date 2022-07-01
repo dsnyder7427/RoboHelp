@@ -1,6 +1,22 @@
 # FIELDTABLE
 The FIELDTABLE command obtains the field table based on pre-filled metadata.
 
+[FINDFILES Example](#findfiles-example)
+
+[FINDFILES Parameters](#findfiles-parameters)
+
+[FINDFILES Sort Values](#findfiles-sort-values)
+
+[JSON Response Keys for FINDFILES](#json-response-keys-for-findfiles)
+
+[JSON Response Keys for FINDFILES](#json-response-keys-for-findfiles)
+
+[JSON Successful FINDFILES Response](#json-successful-findfiles-response)
+
+[Note About Successful JSON FINDFILES Response](#note-about-sucessful-json-findfiles-response)
+
+[JSON Failed FINDFILES Response](#json-failed-findfiles-response)
+
 ## FIELDTABLE Example
 {Worldox Web Domain}/cgi-bin/wdwebcgi.exe?FIELDTABLE+wd_SID={Worldox Web User Session}+HTMLOnOk=/v4/fieldtables/fieldTables.json+HTMLOnFail=/v4/fieldtables/fieldTables.json+wd_FIELD_PROFILEGROUP_FILTER={Cabinet ID}+wd_FIELD1CODE_FILTER={Field 1 Value}+wd_FIELD2CODE_FILTER={Field 2 Value}+wd_FIELD3CODE_FILTER={Field 3 Value}+wd_FIELD4CODE_FILTER={Field 4 Value}+wd_FIELD5CODE_FILTER={Field 5 Value}+wd_FIELD6CODE_FILTER={Field 6 Value}+wd_FIELD7CODE_FILTER={Field 7 Value}+wd_FIELD_NUMBER_FILTER={Field for the table you want to obtain}+maxCount={Total amount of Field tables shown}+IndexFr={Index where to start the Field table list}+wd_List_Filter={inserted text that filters current list}
 
