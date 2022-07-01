@@ -33,17 +33,3 @@ This is the page to return on a failed CLOSELIST.
 ## JSON Successful CLOSELIST Response
 
 Note that when the response is successful, the `ErrorCount` value is blank. 
-
-``` {
-    "root": {
-        "errorStatus": {
-            "ErrorCount": "",
-            "wd_Error_RCID": "",
-            "wd_Error_RCTX": "",
-            "wd_Error_MSG": "",
-            "wd_Error_VAR": "",
-            "wd_Error_VAL": ""
-        },
-        "data": ""
-    }
-}```
