@@ -28,6 +28,7 @@ To get a list of cabinets
 **Note:** If the `CABINET_ID_VALUE` is 0, it shows all cabinets in the list.
 
 ## JSON Successful CABINETS Response
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
@@ -175,6 +176,7 @@ To get a list of cabinets
 }
 ```
 ## JSON Failed CABINETS Response
+Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure. 
 
 ```
 "root": {
