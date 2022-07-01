@@ -52,7 +52,7 @@ Worldox Web User Password
 
 ## JSON Successful LOGON Response
 
-Note that when the response is successful, the ErrorCount value is blank.
+Note that when the response is successful, the `ErrorCount` value is blank.
 
 ```
 "root": {
