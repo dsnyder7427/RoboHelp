@@ -1,21 +1,34 @@
 # FILEWDL (UPDATE TEMP WDL)
+
 The FILEWDL command adds or removes a file from the .wdl project. 
+
+[FILEWDL Example](#filewdl-required-parameters)
+
+[FILEWDL Parameters](#filewdl-optional-parameters)
+
+[JSON Successful FILEWDL Response](#json-successful-filewdl-response)
+
+[JSON Failed FILEWDL Response](#json-failed-filewdl-response)
 
 
 ## FILEWDL Required Parameters
-wd_list_ID
+`wd_list_ID`
 	Is the list ID of a project
-wd_SID
+`wd_SID`
 	Is the Worldox session ID
-Html1
+`Html1`
 	Should be /v4/errorlog/error.json or something similar since the API will only return whether it worked or not
-12.2	Optional Parameters
-wd_List_RecNum
+## FILEWDL Optional Parameters
+`wd_List_RecNum`
 	Is the existing record number of an item in the wdl if you want to remove it
-wd_File_PathFile_Value
+`wd_File_PathFile_Value`
 	Is the file to add
-12.3	JSON Successful FILEWDL Response
-Note that when the response is successful, the ErrorCount value is blank. 
+
+## JSON Successful FILEWDL Response
+
+Note that when the response is successful, the `ErrorCount` value is blank. 
+
+```
 {
     "root": {
         "data": {
@@ -66,9 +79,13 @@ Note that when the response is successful, the ErrorCount value is blank.
         }
     }
 }
+```
 
-12.4	JSON Failed FILEWDL Response
-Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+## JSON Failed FILEWDL Response
+
+Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure.  
+
+```
 {
     "root": {
         "data": {
@@ -127,3 +144,4 @@ Note that when the response has failed, the ErrorCount value has a number, the R
         }
     }
 }
+```
