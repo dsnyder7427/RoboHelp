@@ -55,69 +55,377 @@ Is whatever the column ID is
 
 The following table describes the available flags for `wd_List_Rename_Flags`.
 
-JSON Key	Slim Parameter	Meaning
-“Description”	"%Xname%",	File description
-"DocId"	"%DOCID%", 	File name
-"DateUpdated",	"%wUPDATED%",	unixtimestamp of date updated
-"Size",	"%SIZE%",	File size
-"Comments",	"%COMMENTS%",	File comments
-"Version",	"%VERSION%",	Version number
-"I",	"%wSTATUSID%",	Numerical value of file status (checked-out etc.)
-"dwRC",	"%dwRC%",	Return code of the file (if it is missing from the file system)
-"stFl",	"%wSTATUS_FLAGS%",	Status flags #
-"stIc",	"%wSTATUS_ICON%",	Status icon #
-"HASH",	"%H#%",	Hash of every value above it
-"FilePath",	"%UNCPG_PATHONLY%",	Descriptive path of file
-"FilePathReal",	"%UNCPG_PATHFILE%",	Physical path of file
-"LN",	"%L#%",	File offset
-"RN",	"%R#%",	File record number
-"LID",	"^wd_List_ID^",	List ID of current list
+**JSON Key**
 
-"Field1",	"%FIELD1%",	Field 1 code
-"Field1Desc",	"%FIELD1DESC%",	Field 1 description
-"Field1Name",	"%Field1Name%",	Field 1 name
-"Field2",	"%FIELD2%",	Field 2 code
-"Field2Desc",	"%FIELD2DESC%",	Field 2 description
-"Field2Name",	"%Field2Name%",	Field 2 name
-"Field3",	"%FIELD3%",	Field 3 code
-"Field3Desc",	"%FIELD3DESC%",	Field 3 description
-"Field3Name",	"%Field3Name%",	Field 3 name
-"Field4",	"%FIELD4%",	Field 4 code
-"Field4Desc",	"%FIELD4DESC%",	Field 4 description
-"Field4Name",	"%Field4Name%",	Field 4 name
-"Field5",	"%FIELD5%",	Field 5 code
-"Field5Desc",	"%FIELD5DESC%",	Field 5 description
-"Field5Name",	"%Field5Name%",	Field 5 name
-"Field6",	"%FIELD6%",	Field 6 code
-"Field6Desc",	"%FIELD6DESC%",	Field 6 description
-"Field6Name",	"%Field6Name%",	Field 6 name
-"Field7",	"%FIELD7%",	Field 7 code
-"Field7Desc",	"%FIELD7DESC%",	Field 7 description
-"Field7Name",	"%Field67Name%",	Field 7 name
-"AccessedDate",	"%wACCESSED%",	unix timestamp of date accessed
-"DateCreated",	"%wCREATED%",	unix timestamp of date created
-"PathMap",	"%PATHMAP%",	“Hidden” path of file
-"ProfileGroupId",	"%wGROUP%",	Cabinet ID
-"Cabinet",	"%GROUP%",	Cabinet name
-"Location",	"%PATH%",	Descriptive path
-"Extension",	"%EXT%",	File extension
-"OW",	"%OWNERINIT%",	Owner initials (last person to access the file
-"FF",	"%FAVORITE%",	Is this file a favorite? If so, how?
-"EFR",	"%EMAIL_FR%",	Email was from
-"ETO",	"%EMAIL_TO%",	Email was to
-"ECC",	"%EMAIL_CC%",	Email had CC
-"EBC",	"%EMAIL_BCC%",	Email had bcc
-"ETS",	"%EMAIL_tSENT%",	Time email was sent
-"ETR",	"%EMAIL_tRCVD%",	Time email was received
-"ERF",	"%EMAIL_tRFDATE%",	Received from date
-"ERW",	"%EMAIL_RFWHO%",	Received from person
-"EAD",	"%EMAIL_ADDR%",	Email from
-"szRC",	"%szRC%",	dwRCs error text
-"CHKOUT_TO_PREF",	"%CHKOUT_TO_PREF%",	Part of the checked-out line
-"CHKOUT_TO_NAME",	"%CHKOUT_TO_NAME%",	Part of the checked-out line
-"CHKOUT_ON_PREF",	"%CHKOUT_ON_PREF%",	Part of the checked-out line
-"CHKOUT_ON_DATE",	"%CHKOUT_ON_DATE%",	Part of the checked-out line
-"CHKOUT_TO_LINE",	"%CHKOUT_TO_LINE%",	Full checked out-line
+**Slim Parameter**
+
+**Meaning**
+
+“Description”
+
+"%Xname%",
+
+File description
+
+"DocId"
+
+"%DOCID%", 
+
+File name
+
+"DateUpdated",
+
+"%wUPDATED%",
+
+unixtimestamp of date updated
+
+"Size",
+
+"%SIZE%",
+
+File size
+
+"Comments",
+
+"%COMMENTS%",
+
+File comments
+
+"Version",
+
+"%VERSION%",
+
+Version number
+
+"I",
+
+"%wSTATUSID%",
+
+Numerical value of file status (checked-out etc.)
+
+"dwRC",
+
+"%dwRC%",
+
+Return code of the file (if it is missing from the file system)
+
+"stFl",
+
+"%wSTATUS\_FLAGS%",
+
+Status flags #
+
+"stIc",
+
+"%wSTATUS\_ICON%",
+
+Status icon #
+
+"HASH",
+
+"%H#%",
+
+Hash of every value above it
+
+"FilePath",
+
+"%UNCPG\_PATHONLY%",
+
+Descriptive path of file
+
+"FilePathReal",
+
+"%UNCPG\_PATHFILE%",
+
+Physical path of file
+
+"LN",
+
+"%L#%",
+
+File offset
+
+"RN",
+
+"%R#%",
+
+File record number
+
+"LID",
+
+"^wd\_List\_ID^",
+
+List ID of current list
+
+"Field1",
+
+"%FIELD1%",
+
+Field 1 code
+
+"Field1Desc",
+
+"%FIELD1DESC%",
+
+Field 1 description
+
+"Field1Name",
+
+"%Field1Name%",
+
+Field 1 name
+
+"Field2",
+
+"%FIELD2%",
+
+Field 2 code
+
+"Field2Desc",
+
+"%FIELD2DESC%",
+
+Field 2 description
+
+"Field2Name",
+
+"%Field2Name%",
+
+Field 2 name
+
+"Field3",
+
+"%FIELD3%",
+
+Field 3 code
+
+"Field3Desc",
+
+"%FIELD3DESC%",
+
+Field 3 description
+
+"Field3Name",
+
+"%Field3Name%",
+
+Field 3 name
+
+"Field4",
+
+"%FIELD4%",
+
+Field 4 code
+
+"Field4Desc",
+
+"%FIELD4DESC%",
+
+Field 4 description
+
+"Field4Name",
+
+"%Field4Name%",
+
+Field 4 name
+
+"Field5",
+
+"%FIELD5%",
+
+Field 5 code
+
+"Field5Desc",
+
+"%FIELD5DESC%",
+
+Field 5 description
+
+"Field5Name",
+
+"%Field5Name%",
+
+Field 5 name
+
+"Field6",
+
+"%FIELD6%",
+
+Field 6 code
+
+"Field6Desc",
+
+"%FIELD6DESC%",
+
+Field 6 description
+
+"Field6Name",
+
+"%Field6Name%",
+
+Field 6 name
+
+"Field7",
+
+"%FIELD7%",
+
+Field 7 code
+
+"Field7Desc",
+
+"%FIELD7DESC%",
+
+Field 7 description
+
+"Field7Name",
+
+"%Field67Name%",
+
+Field 7 name
+
+"AccessedDate",
+
+"%wACCESSED%",
+
+unix timestamp of date accessed
+
+"DateCreated",
+
+"%wCREATED%",
+
+unix timestamp of date created
+
+"PathMap",
+
+"%PATHMAP%",
+
+“Hidden” path of file
+
+"ProfileGroupId",
+
+"%wGROUP%",
+
+Cabinet ID
+
+"Cabinet",
+
+"%GROUP%",
+
+Cabinet name
+
+"Location",
+
+"%PATH%",
+
+Descriptive path
+
+"Extension",
+
+"%EXT%",
+
+File extension
+
+"OW",
+
+"%OWNERINIT%",
+
+Owner initials (last person to access the file
+
+"FF",
+
+"%FAVORITE%",
+
+Is this file a favorite? If so, how?
+
+"EFR",
+
+"%EMAIL\_FR%",
+
+Email was from
+
+"ETO",
+
+"%EMAIL\_TO%",
+
+Email was to
+
+"ECC",
+
+"%EMAIL\_CC%",
+
+Email had CC
+
+"EBC",
+
+"%EMAIL\_BCC%",
+
+Email had bcc
+
+"ETS",
+
+"%EMAIL\_tSENT%",
+
+Time email was sent
+
+"ETR",
+
+"%EMAIL\_tRCVD%",
+
+Time email was received
+
+"ERF",
+
+"%EMAIL\_tRFDATE%",
+
+Received from date
+
+"ERW",
+
+"%EMAIL\_RFWHO%",
+
+Received from person
+
+"EAD",
+
+"%EMAIL\_ADDR%",
+
+Email from
+
+"szRC",
+
+"%szRC%",
+
+dwRCs error text
+
+"CHKOUT\_TO\_PREF",
+
+"%CHKOUT\_TO\_PREF%",
+
+Part of the checked-out line
+
+"CHKOUT\_TO\_NAME",
+
+"%CHKOUT\_TO\_NAME%",
+
+Part of the checked-out line
+
+"CHKOUT\_ON\_PREF",
+
+"%CHKOUT\_ON\_PREF%",
+
+Part of the checked-out line
+
+"CHKOUT\_ON\_DATE",
+
+"%CHKOUT\_ON\_DATE%",
+
+Part of the checked-out line
+
+"CHKOUT\_TO\_LINE",
+
+"%CHKOUT\_TO\_LINE%",
+
+Full checked out-line
 
 ## JSON Successful FINDFILES Response
 
