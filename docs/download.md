@@ -42,7 +42,8 @@ Is the record number of the file on the list that you want to download
 Note that when the response is successful, the `ErrorCount` value is blank. 
 **Note:** You can view the file’s location in the fileLoc line. You can view the file’s name in the `FileNme` line. 
 
-```{
+```
+{
     "root": {
         "data": {
             "fileLoc": "/cgi-bin/WDSIDS/1FZMVYfcOQrBNmi8kr3HWUuwCGHwTYqLNJX4XMEokPlk0D2sQKhwMWBz2FE%243D/OPEN/005/20000/200/Terms%20and%20Conditions%20of%20QC%20%2800001079-2x51615%29.DOC",
@@ -69,7 +70,8 @@ Note that when the response is successful, the `ErrorCount` value is blank.
 
 Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure.  
 
-```{
+```
+{
     "root": {
         "data": {
             "fileLoc": "",
