@@ -45,7 +45,7 @@ Note that when the response is successful, the `ErrorCount` value is blank.
         },
         "data": ""
     }
-} ```
+}```
 
 ## JSON Failed CLOSELIST Response
 
