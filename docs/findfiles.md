@@ -14,7 +14,7 @@ The FINDFILES command is the Worldox search command. It is a GET request. It is 
 
 [JSON Successful FINDFILES Response](#json-successful-findfiles-response)
 
-[Npte About Successful JSON FINDFILES Response](#note-about-sucessful-json-findfiles-response)
+[Note About Successful JSON FINDFILES Response](#note-about-sucessful-json-findfiles-response)
 
 [JSON Failed FINDFILES Response](#json-failed-findfiles-response)
 
