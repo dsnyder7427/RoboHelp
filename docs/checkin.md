@@ -43,6 +43,9 @@ Is the record number of the files in the list that you want to check in.
 Is the list ID. Parameter previously returned from FINDFILES. 
  
 ## JSON Successful CHECKIN Response
+
+Note that when the response is successful, the `ErrorCount` value is blank. 
+
 ```
 {
     "root": {
@@ -97,6 +100,7 @@ Is the list ID. Parameter previously returned from FINDFILES.
 ```
 ## JSON Failed CHECKIN Response
 
+Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure.  
 ```
 {
     "root": {
