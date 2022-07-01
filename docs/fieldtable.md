@@ -143,7 +143,7 @@ The following is successful code output shown for FIELDTABLES where fields are l
     }
 }
 
-14.6	JSON Failed FIELDTABLE Response
+## JSON Failed FIELDTABLE Response
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 {
     "error": 404,
