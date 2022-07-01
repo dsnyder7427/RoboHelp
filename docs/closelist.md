@@ -8,7 +8,7 @@ The CLOSELIST command closes the Worldox Web file list.
 
 [JSON Successful CLOSELIST Response](#json-successful-closelist-response)
 
-[JSON Failed CLOSELIST_Response](#json-failed-closelist-response)
+[JSON Failed CLOSELIST Response](#json-failed-closelist-response)
 
 ## CLOSELIST Example
 `/cgi-bin/wdwebcgi.exe?CLOSELIST&wd_SID={{session}}`
@@ -47,7 +47,7 @@ Note that when the response is successful, the `ErrorCount` value is blank.
     }
 }```
 
-## FAILED DOWNLOAD Response
+## JSON FAILED DOWNLOAD Response
 
 Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure.
 
