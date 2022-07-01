@@ -45,6 +45,3 @@ This is the page to return on a failed CLOSELIST.
         "data": ""
     }
 }```
-
-
-Note that when the response is successful, the `ErrorCount` value is blank. 
