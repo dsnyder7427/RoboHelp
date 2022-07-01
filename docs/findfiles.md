@@ -55,377 +55,71 @@ Is whatever the column ID is
 
 The following table describes the available flags for `wd_List_Rename_Flags`.
 
-**JSON Key**
-
-**Slim Parameter**
-
-**Meaning**
-
-“Description”
-
-"%Xname%",
-
-File description
-
-"DocId"
-
-"%DOCID%", 
-
-File name
-
-"DateUpdated",
-
-"%wUPDATED%",
-
-unixtimestamp of date updated
-
-"Size",
-
-"%SIZE%",
-
-File size
-
-"Comments",
-
-"%COMMENTS%",
-
-File comments
-
-"Version",
-
-"%VERSION%",
-
-Version number
-
-"I",
-
-"%wSTATUSID%",
-
-Numerical value of file status (checked-out etc.)
-
-"dwRC",
-
-"%dwRC%",
-
-Return code of the file (if it is missing from the file system)
-
-"stFl",
-
-"%wSTATUS\_FLAGS%",
-
-Status flags #
-
-"stIc",
-
-"%wSTATUS\_ICON%",
-
-Status icon #
-
-"HASH",
-
-"%H#%",
-
-Hash of every value above it
-
-"FilePath",
-
-"%UNCPG\_PATHONLY%",
-
-Descriptive path of file
-
-"FilePathReal",
-
-"%UNCPG\_PATHFILE%",
-
-Physical path of file
-
-"LN",
-
-"%L#%",
-
-File offset
-
-"RN",
-
-"%R#%",
-
-File record number
-
-"LID",
-
-"^wd\_List\_ID^",
-
-List ID of current list
-
-"Field1",
-
-"%FIELD1%",
-
-Field 1 code
-
-"Field1Desc",
-
-"%FIELD1DESC%",
-
-Field 1 description
-
-"Field1Name",
-
-"%Field1Name%",
-
-Field 1 name
-
-"Field2",
-
-"%FIELD2%",
-
-Field 2 code
-
-"Field2Desc",
-
-"%FIELD2DESC%",
-
-Field 2 description
-
-"Field2Name",
-
-"%Field2Name%",
-
-Field 2 name
-
-"Field3",
-
-"%FIELD3%",
-
-Field 3 code
-
-"Field3Desc",
-
-"%FIELD3DESC%",
-
-Field 3 description
-
-"Field3Name",
-
-"%Field3Name%",
-
-Field 3 name
-
-"Field4",
-
-"%FIELD4%",
-
-Field 4 code
-
-"Field4Desc",
-
-"%FIELD4DESC%",
-
-Field 4 description
-
-"Field4Name",
-
-"%Field4Name%",
-
-Field 4 name
-
-"Field5",
-
-"%FIELD5%",
-
-Field 5 code
-
-"Field5Desc",
-
-"%FIELD5DESC%",
-
-Field 5 description
-
-"Field5Name",
-
-"%Field5Name%",
-
-Field 5 name
-
-"Field6",
-
-"%FIELD6%",
-
-Field 6 code
-
-"Field6Desc",
-
-"%FIELD6DESC%",
-
-Field 6 description
-
-"Field6Name",
-
-"%Field6Name%",
-
-Field 6 name
-
-"Field7",
-
-"%FIELD7%",
-
-Field 7 code
-
-"Field7Desc",
-
-"%FIELD7DESC%",
-
-Field 7 description
-
-"Field7Name",
-
-"%Field67Name%",
-
-Field 7 name
-
-"AccessedDate",
-
-"%wACCESSED%",
-
-unix timestamp of date accessed
-
-"DateCreated",
-
-"%wCREATED%",
-
-unix timestamp of date created
-
-"PathMap",
-
-"%PATHMAP%",
-
-“Hidden” path of file
-
-"ProfileGroupId",
-
-"%wGROUP%",
-
-Cabinet ID
-
-"Cabinet",
-
-"%GROUP%",
-
-Cabinet name
-
-"Location",
-
-"%PATH%",
-
-Descriptive path
-
-"Extension",
-
-"%EXT%",
-
-File extension
-
-"OW",
-
-"%OWNERINIT%",
-
-Owner initials (last person to access the file
-
-"FF",
-
-"%FAVORITE%",
-
-Is this file a favorite? If so, how?
-
-"EFR",
-
-"%EMAIL\_FR%",
-
-Email was from
-
-"ETO",
-
-"%EMAIL\_TO%",
-
-Email was to
-
-"ECC",
-
-"%EMAIL\_CC%",
-
-Email had CC
-
-"EBC",
-
-"%EMAIL\_BCC%",
-
-Email had bcc
-
-"ETS",
-
-"%EMAIL\_tSENT%",
-
-Time email was sent
-
-"ETR",
-
-"%EMAIL\_tRCVD%",
-
-Time email was received
-
-"ERF",
-
-"%EMAIL\_tRFDATE%",
-
-Received from date
-
-"ERW",
-
-"%EMAIL\_RFWHO%",
-
-Received from person
-
-"EAD",
-
-"%EMAIL\_ADDR%",
-
-Email from
-
-"szRC",
-
-"%szRC%",
-
-dwRCs error text
-
-"CHKOUT\_TO\_PREF",
-
-"%CHKOUT\_TO\_PREF%",
-
-Part of the checked-out line
-
-"CHKOUT\_TO\_NAME",
-
-"%CHKOUT\_TO\_NAME%",
-
-Part of the checked-out line
-
-"CHKOUT\_ON\_PREF",
-
-"%CHKOUT\_ON\_PREF%",
-
-Part of the checked-out line
-
-"CHKOUT\_ON\_DATE",
-
-"%CHKOUT\_ON\_DATE%",
-
-Part of the checked-out line
-
-"CHKOUT\_TO\_LINE",
-
-"%CHKOUT\_TO\_LINE%",
-
-Full checked out-line
+| **JSON Key** | **Slim Parameter** | **Meaning** |
+| --- | --- | --- |
+| &quot;Description&quot; | &quot;%Xname%&quot;, | File description |
+| --- | --- | --- |
+| &quot;DocId&quot; | &quot;%DOCID%&quot;,  | File name |
+| &quot;DateUpdated&quot;, | &quot;%wUPDATED%&quot;, | unixtimestamp of date updated |
+| &quot;Size&quot;, | &quot;%SIZE%&quot;, | File size |
+| &quot;Comments&quot;, | &quot;%COMMENTS%&quot;, | File comments |
+| &quot;Version&quot;, | &quot;%VERSION%&quot;, | Version number |
+| &quot;I&quot;, | &quot;%wSTATUSID%&quot;, | Numerical value of file status (checked-out etc.) |
+| &quot;dwRC&quot;, | &quot;%dwRC%&quot;, | Return code of the file (if it is missing from the file system) |
+| &quot;stFl&quot;, | &quot;%wSTATUS\_FLAGS%&quot;, | Status flags # |
+| &quot;stIc&quot;, | &quot;%wSTATUS\_ICON%&quot;, | Status icon # |
+| &quot;HASH&quot;, | &quot;%H#%&quot;, | Hash of every value above it |
+| &quot;FilePath&quot;, | &quot;%UNCPG\_PATHONLY%&quot;, | Descriptive path of file |
+| &quot;FilePathReal&quot;, | &quot;%UNCPG\_PATHFILE%&quot;, | Physical path of file |
+| &quot;LN&quot;, | &quot;%L#%&quot;, | File offset |
+| &quot;RN&quot;, | &quot;%R#%&quot;, | File record number |
+| &quot;LID&quot;, | &quot;^wd\_List\_ID^&quot;, | List ID of current list
+ |
+| &quot;Field1&quot;, | &quot;%FIELD1%&quot;, | Field 1 code |
+| &quot;Field1Desc&quot;, | &quot;%FIELD1DESC%&quot;, | Field 1 description |
+| &quot;Field1Name&quot;, | &quot;%Field1Name%&quot;, | Field 1 name |
+| &quot;Field2&quot;, | &quot;%FIELD2%&quot;, | Field 2 code |
+| &quot;Field2Desc&quot;, | &quot;%FIELD2DESC%&quot;, | Field 2 description |
+| &quot;Field2Name&quot;, | &quot;%Field2Name%&quot;, | Field 2 name |
+| &quot;Field3&quot;, | &quot;%FIELD3%&quot;, | Field 3 code |
+| &quot;Field3Desc&quot;, | &quot;%FIELD3DESC%&quot;, | Field 3 description |
+| &quot;Field3Name&quot;, | &quot;%Field3Name%&quot;, | Field 3 name |
+| &quot;Field4&quot;, | &quot;%FIELD4%&quot;, | Field 4 code |
+| &quot;Field4Desc&quot;, | &quot;%FIELD4DESC%&quot;, | Field 4 description |
+| &quot;Field4Name&quot;, | &quot;%Field4Name%&quot;, | Field 4 name |
+| &quot;Field5&quot;, | &quot;%FIELD5%&quot;, | Field 5 code |
+| &quot;Field5Desc&quot;, | &quot;%FIELD5DESC%&quot;, | Field 5 description |
+| &quot;Field5Name&quot;, | &quot;%Field5Name%&quot;, | Field 5 name |
+| &quot;Field6&quot;, | &quot;%FIELD6%&quot;, | Field 6 code |
+| &quot;Field6Desc&quot;, | &quot;%FIELD6DESC%&quot;, | Field 6 description |
+| &quot;Field6Name&quot;, | &quot;%Field6Name%&quot;, | Field 6 name |
+| &quot;Field7&quot;, | &quot;%FIELD7%&quot;, | Field 7 code |
+| &quot;Field7Desc&quot;, | &quot;%FIELD7DESC%&quot;, | Field 7 description |
+| &quot;Field7Name&quot;, | &quot;%Field67Name%&quot;, | Field 7 name |
+| &quot;AccessedDate&quot;, | &quot;%wACCESSED%&quot;, | unix timestamp of date accessed |
+| &quot;DateCreated&quot;, | &quot;%wCREATED%&quot;, | unix timestamp of date created |
+| &quot;PathMap&quot;, | &quot;%PATHMAP%&quot;, | &quot;Hidden&quot; path of file |
+| &quot;ProfileGroupId&quot;, | &quot;%wGROUP%&quot;, | Cabinet ID |
+| &quot;Cabinet&quot;, | &quot;%GROUP%&quot;, | Cabinet name |
+| &quot;Location&quot;, | &quot;%PATH%&quot;, | Descriptive path |
+| &quot;Extension&quot;, | &quot;%EXT%&quot;, | File extension |
+| &quot;OW&quot;, | &quot;%OWNERINIT%&quot;, | Owner initials (last person to access the file |
+| &quot;FF&quot;, | &quot;%FAVORITE%&quot;, | Is this file a favorite? If so, how? |
+| &quot;EFR&quot;, | &quot;%EMAIL\_FR%&quot;, | Email was from |
+| &quot;ETO&quot;, | &quot;%EMAIL\_TO%&quot;, | Email was to |
+| &quot;ECC&quot;, | &quot;%EMAIL\_CC%&quot;, | Email had CC |
+| &quot;EBC&quot;, | &quot;%EMAIL\_BCC%&quot;, | Email had bcc |
+| &quot;ETS&quot;, | &quot;%EMAIL\_tSENT%&quot;, | Time email was sent |
+| &quot;ETR&quot;, | &quot;%EMAIL\_tRCVD%&quot;, | Time email was received |
+| &quot;ERF&quot;, | &quot;%EMAIL\_tRFDATE%&quot;, | Received from date |
+| &quot;ERW&quot;, | &quot;%EMAIL\_RFWHO%&quot;, | Received from person |
+| &quot;EAD&quot;, | &quot;%EMAIL\_ADDR%&quot;, | Email from |
+| &quot;szRC&quot;, | &quot;%szRC%&quot;, | dwRCs error text |
+| &quot;CHKOUT\_TO\_PREF&quot;, | &quot;%CHKOUT\_TO\_PREF%&quot;, | Part of the checked-out line |
+| &quot;CHKOUT\_TO\_NAME&quot;, | &quot;%CHKOUT\_TO\_NAME%&quot;, | Part of the checked-out line |
+| &quot;CHKOUT\_ON\_PREF&quot;, | &quot;%CHKOUT\_ON\_PREF%&quot;, | Part of the checked-out line |
+| &quot;CHKOUT\_ON\_DATE&quot;, | &quot;%CHKOUT\_ON\_DATE%&quot;, | Part of the checked-out line |
+| &quot;CHKOUT\_TO\_LINE&quot;, | &quot;%CHKOUT\_TO\_LINE%&quot;, | Full checked out-line |
 
 ## JSON Successful FINDFILES Response
 
