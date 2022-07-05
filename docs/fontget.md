@@ -1,14 +1,24 @@
-15	FONTGET
-The FONTGET command returns all the active fonts for the logged in user. This is a GET request.
-15.1	FONTGET Example
-{{url}}/cgi-bin/wdwebcgi.exe?FONTGET&wd_SID=' + {Worldox Web User Session) &html=/v4/font/getfonts.json
-15.2	Parameters
-HTML
-This is the page to return on a call to FONTGET.
-v4\font\getfonts.json
-wd_SID
-The Worldox session ID.
+# FONTGET
+ The FONTGET command returns all the active fonts for the logged in user. This is a GET request.
+## FONTGET Example
+
+`{{url}}/cgi-bin/wdwebcgi.exe?FONTGET&wd_SID=' + {Worldox Web User Session) &html=/v4/font/getfonts.json`
+
+## FONTGET Parameters
+
+`HTML`
+
+     This is the page to return on a call to FONTGET.
+
+     `v4\font\getfonts.json`
+
+`wd_SID`
+     
+     The Worldox session ID.
+
+
 The output will look something like this for each font item type:
+```
 {
      "L#":"2",                //can be ignored, it is just positionally the # in this list
      "bUNDERLINE":0,          //Is the font underlined
@@ -32,9 +42,12 @@ The output will look something like this for each font item type:
      "uWEIGHT":400,           //font weight
      "uHEIGHT":-13            //Font height
 }
- 
-15.3	JSON Successful FONTS Response
+```
+ 
+## JSON Successful FONTS Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+```
 {
     "root": {
         "Extra": {
@@ -340,9 +353,13 @@ Note that when the response is successful, the ErrorCount value is blank.
         ]
     }
 }
+```
  
-15.4	JSON Failed FONTS Response
+## JSON Failed FONTS Response
+
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+
+```
 {
     "root": {
         "Extra": {
@@ -385,4 +402,4 @@ Note that when the response has failed, the ErrorCount value has a number, the R
         ]
     }
 }
-
+```
