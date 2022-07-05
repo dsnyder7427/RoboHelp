@@ -1,3 +1,9 @@
+---
+layout: default
+title: Markdown kitchen sink
+nav_order: 1
+---
+
 Worldox Web 3.x API Overview
 ============================
 
