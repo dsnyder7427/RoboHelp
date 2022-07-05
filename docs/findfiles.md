@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FINDFILES
-nav_order: 11
+nav_order: 10
 ---
 
 # FINDFILES (GET LIST, CREATE TEMP LIST, SORTFILES)
