@@ -1,6 +1,11 @@
 # Upload to IIS
 
 The UPLOAD to IIS command uploads the file to IIS. This is a POST request. It passes the file as form data in the Body.
+[UPLOAD to IIS Example](#upload-to-iis-example)
+[UPLOAD Parameters](#upload-parameters)
+[JSON Successful UPLOAD to IIS Response](#json-successful-upload-to-iis-response)
+[JSON Failed UPLOAD_to_IIS Response](#json-failed-upload-to-IIS-response)
+
 
 **Note:** All POST requests that require a session require the session to be decoded either on the Body or as Parameter on the URL.
  
