@@ -1,3 +1,9 @@
+---
+layout: default
+title: FONTGET
+nav_order: 11
+---
+
 # FONTGET
  The FONTGET command returns all the active fonts for the logged in user. This is a GET request.
 
