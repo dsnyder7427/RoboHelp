@@ -1,3 +1,9 @@
+---
+layout: default
+title: DOWNLOAD
+nav_order: 9
+---
+
 # DOWNLOAD
 
 The DOWNLOAD command prepares a file for download. This is a GET request.
