@@ -1,3 +1,9 @@
+---
+layout: default
+title: LOCK
+nav_order: 14
+---
+
 # LOCK
 
 The LOCK command locks a record for exclusive use.
