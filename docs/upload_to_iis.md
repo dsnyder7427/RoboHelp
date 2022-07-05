@@ -1,3 +1,9 @@
+---
+layout: default
+title: UPLOAD to IIS
+nav_order: 15
+---
+
 # Upload to IIS
 
 The UPLOAD to IIS command uploads the file to IIS. This is a POST request. It passes the file as form data in the Body.
