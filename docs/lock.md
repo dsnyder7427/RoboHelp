@@ -2,6 +2,12 @@
 
 The LOCK command locks a record for exclusive use.
 
+[LOCK Example](#lock-example)
+[LOCK Parameters](#lock-parameters)
+[JSON Successful LOCK Response](#json-successful-lock-response)
+[JSON Failed LOCK Response](#json-failed-lock-response)
+
+
 ## LOCK Example
 
 `/cgi-bin/wdwebcgi.exe?LOCK+wd_SID={{session}}+wd_List_ID={{listid}}+wd_List_RecNum={{recnum}}`
