@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Worldox Web 3.x API Overview
+title: CABINETS
 nav_order: 4
 ---
 
