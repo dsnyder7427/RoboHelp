@@ -18,64 +18,89 @@ The FIELDTABLE command obtains the field table based on pre-filled metadata.
 
 ## FIELDTABLE Parameters
 `{Worldox Web Domain}`
+
 Is the domain name
+
 `wd_SID`
+
 	Is the session ID
+
 `HTMLOnOK`
+
 This is the page to return on a successful call to FIELDTABLE.
+
 `v4 \fieldtables\fieldTables.json`
+
 **Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
 `HTMLOnFail`
+
 This is the page to return on a failed FIELDTABLE.
+
 `v4 \fieldtables\fieldTables.json`
+
 **Note:** `api`is deprecated but still can be used. Going forward v4 is the best practice.
+
 `wd_FIELD_PROFILEGROUP_FILTER`
 	Is the Cabinet ID
+
 `wd_FIELD1CODE_FILTER`
 	Field 1 value
+
 `wd_FIELD2CODE_FILTER`
 	Field 2 value
+
 `wd_FIELD3CODE_FILTER`
 	Field 3 value
+
 `wd_FIELD4CODE_FILTER`
 	Field 4 value
+
 `wd_FIELD5CODE_FILTER`
 	Field 5 value
+
 `wd_FIELD6CODE_FILTER`
 	Field 6 value
+
 `w_FIELD7CODE_FILTER`
 	Field 7 value
+
 `wd_List_Flags=0`
 	List ID flag (indicates if the file list has flags). This value is empty for Active field tables, the default.
 	`2304`returns Inactive field tables.
 	`3328` returns All (Active and Inactive) field tables.
+
 `wd_FIELD_ACTIVE_VALUE`
-ACTIVE can be `1` or `0`.
+	ACTIVE can be `1` or `0`.
 	`1` is used for an Active field table
-`0` is used for an Inactive field table
+	`0` is used for an Inactive field table
+
 `wd_FIELD_RETMETHOD_VALUE` 
 Retention method values are:
 		`A` Archive
 		`D` Delete
 		`N` No Action (will be blank in code)
+
 `wd_FIELD_RETSCALE_VALUE`
-Retention Scale values are:
-		`W` Week
-`M` Month
-`Y` Year
+	Retention Scale values are:
+	`W` Week
+	`M` Month
+	`Y` Year
+
 `wd_FIELD_RETUNITS_VALUE`
-Retention units are numeric values
+	Retention units are numeric values
 
 `MaxCount`
-Maximum number of records to return. Uses Skip and Take for field tables. Skip Is where you start. 0 is the value. Take Is set to 500, which is the current default. **Note:** In the future, you can configure this to be a greater value. 
+	Maximum number of records to return. Uses Skip and Take for field tables. Skip Is where you start. 0 is the value. Take Is set to 500, which is the current default. **Note:** In the future, you can configure this to be a greater value. 
 `IndexFr`
 	Index where to start the field table
+
 `wd_List_Filter`
-Is not a required parameter, but when it is used, it will filter by field code and field description.
-The value for wd_List_Filter can be surrounded by an * asterisk.
-If the value is *001, it will return all field tables that start with 001 on the field that is selected in the wd_FIELD_NUMBER_FILTER
-If the value is 001*, it will return all field tables that end with 001 on the field that is selected in the wd_FIELD_NUMBER_FILTER
-If the value is *001*, it will return all field tables that contains 001 on the field that is selected in the wd_FIELD_NUMBER_FILTER
+	Is not a required parameter, but when it is used, it will filter by field code and field description.
+	The value for wd_List_Filter can be surrounded by an * asterisk.
+	If the value is *001, it will return all field tables that start with 001 on the field that is selected in the wd_FIELD_NUMBER_FILTER
+	If the value is 001* , it will return all field tables that end with 001 on the field that is selected in the wd_FIELD_NUMBER_FILTER
+	If the value is *001*, it will return all field tables that contains 001 on the field that is selected in the wd_FIELD_NUMBER_FILTER
 
 ## FIELDTABLE Sort Directions
 ```
