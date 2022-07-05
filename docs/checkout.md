@@ -1,3 +1,9 @@
+---
+layout: default
+title: CHECKOUT
+nav_order: 7
+---
+
 # CHECKOUT
 
 The CHECKOUT command checks out a file. It is a GET request.
