@@ -1,3 +1,9 @@
+---
+layout: default
+title: FILEWDL
+nav_order: 10
+---
+
 # FILEWDL (UPDATE TEMP WDL)
 
 The FILEWDL command adds or removes a file from the .wdl project. 
