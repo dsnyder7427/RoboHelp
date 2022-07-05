@@ -3,6 +3,7 @@
 The UPLOAD to IIS command uploads the file to IIS. This is a POST request. It passes the file as form data in the Body.
 **Note:** All POST requests that require a session require the session to be decoded either on the Body or as Parameter on the URL.
  
+ ![Drag Racing](uploadiis.jpg)
  
 **Note:** After you use UPLOAD to IIS, you can use the NEWFILE command.
 
