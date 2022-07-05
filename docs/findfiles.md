@@ -1,3 +1,9 @@
+---
+layout: default
+title: FINDFILES
+nav_order: 11
+---
+
 # FINDFILES (GET LIST, CREATE TEMP LIST, SORTFILES)
 
 The FINDFILES command is the Worldox search command. It is a GET request. It is sometimes referred to as GetList. Note: FINDFILES is used for GetList and Create Temp list. SORTFILES is a separate command, but it can use the same output as FINDFILES.
