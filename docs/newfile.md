@@ -19,7 +19,7 @@ The NEWFILE command saves the uploaded file into Worldox.
 
  `HTMLOnOK`
 
-  This is the page to return on a successful call to NEWFILE.
+  	This is the page to return on a successful call to NEWFILE.
 
   `v4 \fileActions\Newfile.json` 
 
@@ -37,60 +37,63 @@ The NEWFILE command saves the uploaded file into Worldox.
 	
   Is the domain name
 
-wd_SID
+`wd_SID`
 
-Is the session ID
+	Is the session ID
 
-wd_File_Field1_Value
+`wd_File_Field1_Value`
 
-File’s field 1 value
+	File’s field 1 value
 
-wd_File_Field2_Value
+`wd_File_Field2_Value`
 
-File’s field 2 value
+	File’s field 2 value
 
-wd_File_Field3_Value
+`wd_File_Field3_Value`
 
-File’s field 3 value
+	File’s field 3 value
 
-wd_File_Field4_Value
+`wd_File_Field4_Value`
 
-File’s field 4 value
+	File’s field 4 value
 
-wd_File_Field5_Value
+`wd_File_Field5_Value`
 
-File’s field 5 value
+	File’s field 5 value
 
-wd_File_Field6_Value
+`wd_File_Field6_Value`
 
-File’s field 6 value
+	File’s field 6 value
 
-wd_File_Field7_Value
+`wd_File_Field7_Value`
 
-File’s field 7 value
+	File’s field 7 value
 
-wd_File_ProfileGroup_Value
+`wd_File_ProfileGroup_Value`
 
-File’s cabinet (profile group) value
+	File’s cabinet (profile group) value
 
-wd_File_XNAME_Value
+`wd_File_XNAME_Value`
 
-This is the description
+	This is the description
 
-wd_FILE_STATUSFLAGS_VALUE
+`wd_FILE_STATUSFLAGS_VALUE`
 
-Security ID flag (indicates if the file has security and if so, what type- none, protected or hidden)
+	Security ID flag (indicates if the file has security and if so, what type- none, protected or hidden)
 
-wd_file_filename_value
+`wd_file_filename_value`
 
-Is my_filename_description.docx (This is an example)
+	Is my_filename_description.docx (This is an example)
 
-fileExt
+`fileExt`
 
-Is the file’s extension (for example, .docx, .xlsx, .pdf, etc.)
+	Is the file’s extension (for example, .docx, .xlsx, .pdf, etc.)
 
 ## JSON Successful NEWFILE Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+
+```
 {
     "root": {
         "data": {
@@ -134,9 +137,13 @@ Note that when the response is successful, the ErrorCount value is blank.
         }
     }
 }
+```
  
-18.4	JSON Failed NEWFILE Response
+## JSON Failed NEWFILE Response
+
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+
+```
 {
     "root": {
         "data": {
@@ -187,3 +194,4 @@ Note that when the response has failed, the ErrorCount value has a number, the R
         }
     }
 }
+```
