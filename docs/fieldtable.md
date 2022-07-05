@@ -5,6 +5,8 @@ The FIELDTABLE command obtains the field table based on pre-filled metadata.
 
 [FIELDTABLE Parameters](#fieldtable-parameters)
 
+[FIELDTABLE Sort Directions](#fieldtable-sort-directions)
+
 [JSON Successful FIELDTABLE Response for a Linked Field table](#json-successful-fieldtable-response-for-a-linked-field-table)
 
 [JSON Successful FIELDTABLE Response for a Non-Linked Field table](#json-successful-fieldtable-response-for-a-non-linked-field-table)
