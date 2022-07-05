@@ -1,3 +1,9 @@
+---
+layout: default
+title: CLOSELIST
+nav_order: 8
+---
+
 # CLOSELIST
 
 The CLOSELIST command closes the Worldox Web file list.
