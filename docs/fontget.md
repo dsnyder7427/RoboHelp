@@ -2,8 +2,11 @@
  The FONTGET command returns all the active fonts for the logged in user. This is a GET request.
 
 [FONTGET Example](#fontget-example)
+
 [FONTGET Parameters](#fontget-parameters)
+
 [JSON Successful FONTGET Response](#json-successful-fontget-response)
+
 [JSON Failed FONTGET Response](#json-failed-fontget-response)
 
 ## FONTGET Example
