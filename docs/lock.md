@@ -3,8 +3,11 @@
 The LOCK command locks a record for exclusive use.
 
 [LOCK Example](#lock-example)
+
 [LOCK Parameters](#lock-parameters)
+
 [JSON Successful LOCK Response](#json-successful-lock-response)
+
 [JSON Failed LOCK Response](#json-failed-lock-response)
 
 
