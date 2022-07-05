@@ -1,3 +1,9 @@
+---
+layout: default
+title: CHECKIN
+nav_order: 6
+---
+
 # CHECKIN
 
 The CHECKIN command checks in a file at the given record number and list ID. It is a GET request.
