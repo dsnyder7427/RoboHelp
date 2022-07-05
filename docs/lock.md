@@ -2,20 +2,35 @@
 
 The LOCK command locks a record for exclusive use.
 
-16.1	LOCK Example
-/cgi-bin/wdwebcgi.exe?LOCK+wd_SID={{session}}+wd_List_ID={{listid}}+wd_List_RecNum={{recnum}}
-16.2	Parameters
-wd_SID
-The Worldox session ID
+## LOCK Example
+
+`/cgi-bin/wdwebcgi.exe?LOCK+wd_SID={{session}}+wd_List_ID={{listid}}+wd_List_RecNum={{recnum}}`
+
+## LOCK Parameters
+
+`wd_SID`
+
+  The Worldox session ID
+
 Optional:
-wd_List_ID
-The active list
-wd_List_RecNum
-                The record to lock
-HTML
-v4\fileActions\fileStatus.json generic metadata output with errors.
-16.3	JSON Successful LOCK Response
+`wd_List_ID`
+
+  The active list
+
+`wd_List_RecNum`
+  
+  The record to lock
+
+`HTML`
+
+  
+ `v4\fileActions\fileStatus.json` generic metadata output with errors.
+
+## JSON Successful LOCK Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+
+```
 {
     "root": {
         "data": {
@@ -36,7 +51,11 @@ Note that when the response is successful, the ErrorCount value is blank.
         }
     }
 }
-16.4	JSON Failed LOCK Response
+```
+
+## JSON Failed LOCK Response
+
+```
 {
     "root": {
         "data": {
@@ -72,5 +91,4 @@ Note that when the response is successful, the ErrorCount value is blank.
         }
     }
 }
-
-17	UPLOAD TO IIS
+```
