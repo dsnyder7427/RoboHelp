@@ -1,3 +1,9 @@
+---
+layout: default
+title: FIELDTABLE
+nav_order: 12
+---
+
 # FIELDTABLE
 The FIELDTABLE command obtains the field table based on pre-filled metadata.
 
