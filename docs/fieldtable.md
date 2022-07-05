@@ -96,10 +96,15 @@ Retention method values are:
 	Index where to start the field table
 
 `wd_List_Filter`
+
 	Is not a required parameter, but when it is used, it will filter by field code and field description.
 	The value for `wd_List_Filter` can be surrounded by an * asterisk.
+	
+	
 	If the value is `*`001, it will return all field tables that start with 001 on the field that is selected in the `wd_FIELD_NUMBER_FILTER`
+	
 	If the value is 001`*` , it will return all field tables that end with 001 on the field that is selected in the `wd_FIELD_NUMBER_FILTER`
+	
 	If the value is `*`001`*`, it will return all field tables that contains 001 on the field that is selected in the `wd_FIELD_NUMBER_FILTER`
 
 ## FIELDTABLE Sort Directions
