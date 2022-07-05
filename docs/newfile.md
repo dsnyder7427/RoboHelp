@@ -1,3 +1,9 @@
+---
+layout: default
+title: NEWFILE
+nav_order: 16
+---
+
 # NEWFILE
 
 The NEWFILE command saves the uploaded file into Worldox. 
