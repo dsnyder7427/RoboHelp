@@ -1,16 +1,33 @@
-19	UPLOAD TO WORLDOX
-The UPLOAD command takes the uploaded file of an existing document and overwrites it or creates a new version of the file that exists in Worldox. This is a GET request. Note: Upload to IIS and NEWFILE must be performed before Upload to Worldox.
-19.1	UPLOAD to Worldox Example
-{{url}}/cgi-bin/wdwebcgi.exe?UPLOAD&wd_SID={{session}}&HtmlOnOK=/v4/fileActions/uploadVerb.json&HtmlOnFail=/v4/fileActions/uploadVerb.json&Wd_File_StatusFlags_Value={{wdStatusFlag}}&wd_FILE_FILENAME_VALUE={{wdFileName}}&Wd_List_RecNum={{newFileRC}}&wd_List_ID={{newFileID}}Parameters
-HTMLOnOK
-This is the page to return on a successful call to UPLOAD.
-v4\fileActions\uploadPassed.json 
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
+---
+layout: default
+title: NEWFILE
+nav_order: 16
+---
+# UPLOAD TO WORLDOX
 
-HTMLOnFail
-This is the page to return on a failed UPLOAD.
-v4\fileActions\uploadFailed.json
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
+The UPLOAD command takes the uploaded file of an existing document and overwrites it or creates a new version of the file that exists in Worldox. This is a GET request. Note: Upload to IIS and NEWFILE must be performed before Upload to Worldox.
+
+## UPLOAD to Worldox Example
+
+`{{url}}/cgi-bin/wdwebcgi.exe?UPLOAD&wd_SID={{session}}&HtmlOnOK=/v4/fileActions/uploadVerb.json&HtmlOnFail=/v4/fileActions/uploadVerb.json&Wd_File_StatusFlags_Value={{wdStatusFlag}}&wd_FILE_FILENAME_VALUE={{wdFileName}}&Wd_List_RecNum={{newFileRC}}&wd_List_ID={{newFileID}}`
+
+## UPLOAD to Worldox Parameters
+
+`HTMLOnOK`
+
+	This is the page to return on a successful call to UPLOAD.
+	`v4\fileActions\uploadPassed.json`
+
+**Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
+`HTMLOnFail`
+
+	This is the page to return on a failed UPLOAD.
+	
+	`v4\fileActions\uploadFailed.json`
+
+**Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
 {Worldox Web Domain} 
 	Is the domain name
 wd_SID
