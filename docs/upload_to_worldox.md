@@ -7,7 +7,7 @@ nav_order: 16
 
 The UPLOAD command takes the uploaded file of an existing document and overwrites it or creates a new version of the file that exists in Worldox. This is a GET request. Note: Upload to IIS and NEWFILE must be performed before Upload to Worldox.
 
-[UPLOAD to_Worldox Example](#upload-to-worldox-example)
+[UPLOAD to Worldox Example](#upload-to-worldox-example)
 
 [UPLOAD to Worldox Parameters](#upload-to-worldox-parameters)
 
