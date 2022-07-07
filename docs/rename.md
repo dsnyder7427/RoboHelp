@@ -77,8 +77,9 @@ The RENAME command copies, moves, edits, deletes, and creates new versions of th
 
 The following table describes the available flags for wd_List_Rename_Flags.
 
-|**Name**|**Value**|**Description**|
-|WDAPI_RF_FLAG_NONE |	0x00000000	|
+| **Name** | **Value** | **Description** |
+| --- | --- | --- |
+| WDAPI_RF_FLAG_NONE |	0x00000000	|
 
 | WDAPI_RF_FLAG_NEWPROFILE | 0x00000001 | (1) lpStruct = LPWDAPI_NEWPROFILE |
 | WDAPI_RF_FLAG_MOVE | 0x00000008 | (8) Move File |
