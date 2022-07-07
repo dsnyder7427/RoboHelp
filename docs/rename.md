@@ -77,7 +77,7 @@ The RENAME command copies, moves, edits, deletes, and creates new versions of th
 
 ## Available Flags for wd_List_Rename_Flags
 
-The following table describes the available flags for wd_List_Rename_Flags.
+The following table describes the available flags for `wd_List_Rename_Flags`.
 
 | **Name** | **Value** | **Description** |
 | --- | --- | --- |
