@@ -1,33 +1,76 @@
-21	PREVIEW
+---
+layout: default
+title: PREVIEW
+nav_order: 18
+---
+
+## PREVIEW
+
 The PREVIEW command enables you to view the Worldox session.
-21.1	PREVIEW Example
-/cgi-bin/wdwebcgi.exe?VIEWFILE+wd_SID={{session}}
-21.2	Parameters
-{Worldox Web Domain} 
+
+[PREVIEW Example](#preview-example)
+
+[PREVIEW Parameters](#preview-parameters)
+
+[JSON Successful PREVIEW Response](#json-successful-preview-response)
+
+[JSON Failed PREVIEW Response](#json-failed-preview-response)
+
+## PREVIEW Example
+
+`/cgi-bin/wdwebcgi.exe?VIEWFILE+wd_SID={{session}}`
+
+## PREVIEW Parameters
+
+`{Worldox Web Domain}`
+	
 	Is the domain name
-wd_SID
+
+`wd_SID`
+	
 	Is the session ID
-{Worldox Web User Session)
+
+`{Worldox Web User Session)`
+	
 	Is the variable
-HTMLOnOK
-This is the page to return on a successful call to PREVIEW.
-v4\fileActions\Previewer.json
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
-HTMLOnFail
-This is the page to return on a failed PREVIEW.
-v4\fileActions\Previewer.json
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
-wd_LIST_ID
-The Worldox list ID
-wd_LIST_recnum
-The record number of the selected file
-OFFSETCOUNT
-The position on the file list
-wd_VIEW_JPEG_PATH
-The Worldox Web URL to preview file. 
+`HTMLOnOK`
+
+	This is the page to return on a successful call to PREVIEW.
+	
+	`v4\fileActions\Previewer.json`
+
+**Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
+`HTMLOnFail`
+
+	This is the page to return on a failed PREVIEW.
+
+	`v4\fileActions\Previewer.json`
+
+**Note:** `api`is deprecated but still can be used. Going forward v4 is the best practice.
+
+`wd_LIST_ID`
+
+	The Worldox list ID
+
+`wd_LIST_recnum`
+
+	The record number of the selected file
+`OFFSETCOUNT`
+	
+	The position on the file list
+
+`wd_VIEW_JPEG_PATH`
+
+	The Worldox Web URL to preview file. 
+
 For example, https://phoenix.wdsaas.com:443/^PATH^
-21.3	JSON Successful PREVIEW Response
+
+## JSON Successful PREVIEW Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+
+```
 {
     "root": {
         "data": {
@@ -48,8 +91,13 @@ Note that when the response is successful, the ErrorCount value is blank.
         }
     }
 }
-21.4	JSON Failed PREVIEW Response
+```
+
+## JSON Failed PREVIEW Response
+
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+
+```
 {
     "root": {
         "data": {
@@ -77,3 +125,4 @@ Note that when the response has failed, the ErrorCount value has a number, the R
         }
     }
 }
+```
