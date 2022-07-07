@@ -12,6 +12,8 @@ The RENAME command copies, moves, edits, deletes, and creates new versions of th
 
 [RENAME Parameters](#rename-parameters)
 
+[Available Flags for wd_List_RENAME Flags](#available-flags-for-wd-list-rename-flags)
+
 [JSON Successful RENAME Response](#json-successful-rename-response)
 
 [JSON Failed RENAME Response](#json-failed-rename-response)
@@ -73,7 +75,7 @@ The RENAME command copies, moves, edits, deletes, and creates new versions of th
 **Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
 
 
-
+## Available Flags for wd_List_Rename_Flags
 
 The following table describes the available flags for wd_List_Rename_Flags.
 
