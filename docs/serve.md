@@ -134,38 +134,71 @@ or
 	`/v4/templates/searchList.json`
 
 	Returns the list of Search Templates
-23.3.8	cabinets/folder-list.json
-/v4/cabinets/folder-list.json
-Returns the subfolders of a given folder
-23.3.8.1	Required parameters
-wd_BasePath
-23.3.9	Set INI/iniSet.json
-/v4/ini/iniSet.json
-23.3.9.1	Required parameters
-szSection INI section in question
-szINI INI type
-szKey 
-szData displays the number of files at the bottom of the file list in Worldox
-23.3.10	ini/iniRead.json (Get INI get section) 
-/v4/ini/iniRead.json
-Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
-23.3.10.1	Required parameters
-szSection INI section in question
-szINI INI type
-szKey 
-23.3.11	ini/iniReadKey.json (Get INI with key) 
-/v4/ini/iniReadKey.json
-Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
-23.3.11.1	Required parameters
-szSection INI section in question (For example, vtabTree)
-szINI INI type
-szKey
-23.3.12	/v4/errorLog/getVar.json
-/v4/errorLog/getVar.json&szVar={{ wd_Error_RCTX }}&wd_USER_CODE_ISO2={{ Language Code }}
-The wd_Error_RCTX is the error identifier from the previous failed request.
+### cabinets/folder-list.json
+
+`/v4/cabinets/folder-list.json`
+
+	Returns the subfolders of a given folder
+	
+#### Required parameters
+
+`wd_BasePath`
+
+### Set INI/iniSet.json
+
+`/v4/ini/iniSet.json`
+
+#### Required parameters
+
+	`szSection` INI section in question
+
+	`szINI` INI type
+	
+	`szKey`
+
+	`szData` displays the number of files at the bottom of the file list in Worldox
+
+## ini/iniRead.json (Get INI get section) 
+
+`v4/ini/iniRead.json`
+
+	Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
+
+#### Required parameters
+
+	`szSection` INI section in question
+
+	`szINI` INI type
+
+	`szKey`
+
+### ini/iniReadKey.json (Get INI with key) 
+
+`/v4/ini/iniReadKey.json`
+
+	Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
+
+#### Required parameters
+
+	`szSection` INI section in question (For example, vtabTree)
+
+	`szINI` INI type
+
+	`szKey`
+
+### /v4/errorLog/getVar.json
+
+`/v4/errorLog/getVar.json&szVar={{ wd_Error_RCTX }}&wd_USER_CODE_ISO2={{ Language Code }}`
+
+	The `wd_Error_RCTX` is the error identifier from the previous failed request.
+
 The Language Code is the language the text should be in.
+
 Currently the Language Code only passes US English so the value should be “us”. 
+
 Here is an example of an Error when doing a NewFile.
+   
+   ```
    "errorStatus": {
         "ErrorCount": "1",
         "wd_Error_RCID": "8158",
@@ -174,6 +207,8 @@ Here is an example of an Error when doing a NewFile.
         "wd_Error_VAR": "",
         "wd_Error_VAL": ""
     }
+    ```
+    
 23.3.1	filelist/rereadrecord.json (Hash, Reread File) 
 Note: HASH and REREAD FILE have the same output
 \v4\filelist\rereadrecord.json
