@@ -199,6 +199,7 @@ Currently the Language Code only passes US English so the value should be â€œusâ
 Here is an example of an Error when doing a NewFile.
    
    ```
+   
    "errorStatus": {
         "ErrorCount": "1",
         "wd_Error_RCID": "8158",
@@ -207,36 +208,65 @@ Here is an example of an Error when doing a NewFile.
         "wd_Error_VAR": "",
         "wd_Error_VAL": ""
     }
-    ```
+   
+   ```
     
 ### filelist/rereadrecord.json (Hash, Reread File) 
-Note: HASH and REREAD FILE have the same output
-\v4\filelist\rereadrecord.json
-Pass in
-Take 1
-Skip
-Is the offset of the list
-wd_List_RecNum
-	The recnum of file
-wd_List_ID
-Is the list ID of file
-23.3.2	filterlist/filterlist.json 
-/v4/filterlist/filterList.json
-23.3.3	expandBranch.json (TREEOPEN, Workspace children)
-/v4/sideMenu/expandBranch.json
-23.3.3.1	Required parameters
-szSection INI section in question
-szINI INI type
-szKey
-3 returns the content of the child
-5 returns to the (Workspace) parent and collapses the branch
 
-23.3.4	GetRights/userRights.json
-/v4/authentication/userRights.json
-23.3.5	GetVar/getVar.json
-/v4/errorLog/getVar.json
-23.3.5.1	Required parameters
-szVar Error section that user needs txt from
-wd_USER_CODE_ISO2 language country code
-23.3.6	UploadAgent/uploadAgent.json
-/v4/wdAgent/uploadAgent.json
+**Note:** HASH and REREAD FILE have the same output
+
+`\v4\filelist\rereadrecord.json`
+
+Pass in
+
+Take 1
+
+Skip
+
+s the offset of the list
+
+`wd_List_RecNum`
+
+The recnum of file
+
+`wd_List_ID`
+
+Is the list ID of file
+
+### filterlist/filterlist.json 
+
+`/v4/filterlist/filterList.json`
+
+### expandBranch.json (TREEOPEN, Workspace children)
+
+`/v4/sideMenu/expandBranch.json`
+
+#### Required parameters
+
+`szSection` INI section in question
+
+`szINI` INI type
+
+`szKey`
+
+`3` returns the content of the child
+
+`5` returns to the (Workspace) parent and collapses the branch
+
+### GetRights/userRights.json
+
+`/v4/authentication/userRights.json`
+
+### GetVar/getVar.json
+
+`/v4/errorLog/getVar.json`
+
+#### Required parameters
+
+`szVar` Error section that user needs txt from
+
+`wd_USER_CODE_ISO2` language country code
+
+### UploadAgent/uploadAgent.json
+
+`/v4/wdAgent/uploadAgent.json`
