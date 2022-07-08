@@ -108,9 +108,10 @@ There are many different pages that can be served. Please note while reading the
 
 	`/v4/sideMenu/expandBranch.json`
 
+	
 	Returns the list of children within workspaces. 
 
-	`{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&Wd_List_RecNum=1&html=/v4/sideMenu/expandBranch.json&wd_List_ID={{wkspId}}&dwRecNum=53715132&dwExpand=3
+`{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&Wd_List_RecNum=1&html=/v4/sideMenu/expandBranch.json&wd_List_ID={{wkspId}}&dwRecNum=53715132&dwExpand=3
 dwExpand`
 
 	Is a parameter. The two values it can have are
