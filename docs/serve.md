@@ -8,15 +8,21 @@ nav_order: 20
 
 The SERVE command returns a data list for the logged in user. Note: HASH and REREAD are SERVE commands. 
 
+
 [SERVE Example](#serve-example)
+
 
 [SERVE Parameters](#serve-parameters)
 
+
 [SERVE Examples for Different Pages](#serve-examples-for-different-pages)
+
 
 [JSON Successful SERVE Response](#json-successful-serve-response)
 
+
 [JSON Failed SERVE Response](#json-failed-serve-response)
+
 
 ## SERVE Example
 
