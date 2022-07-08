@@ -8,16 +8,33 @@ nav_order: 17
 
 The SERVE command returns a data list for the logged in user. Note: HASH and REREAD are SERVE commands. 
 
+[SERVE Example](#serve-example)
 
-23.1	SERVE Example
-{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}
-23.2	Parameters
-HTML
-This is the page to be served.
-\v4\filelist\rereadrecord.json
-Pass in
-Take 1
-Skip
+[RENAME Parameters](#rename-parameters)
+
+[Available Flags for wd_List_RENAME Flags](#available-flags-for-wd-list-rename-flags)
+
+[JSON Successful RENAME Response](#json-successful-rename-response)
+
+[JSON Failed RENAME Response](#json-failed-rename-response)
+
+## SERVE Example
+
+`{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}`
+
+## Parameters
+
+`HTML`
+	
+	This is the page to be served.
+	
+	`\v4\filelist\rereadrecord.json`
+	
+	Pass in
+
+	Take 1
+
+	Skip
 Is the offset of the list
 wd_List_RecNum
 	The recnum of file
