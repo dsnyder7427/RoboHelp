@@ -10,13 +10,15 @@ The SERVE command returns a data list for the logged in user. Note: HASH and RER
 
 [SERVE Example](#serve-example)
 
-[RENAME Parameters](#rename-parameters)
+[SERVE Parameters](#serve-parameters)
 
-[Available Flags for wd_List_RENAME Flags](#available-flags-for-wd-list-rename-flags)
+[SERVE Examples for Different Pages](#serve-examples-for-different-pages)
 
-[JSON Successful RENAME Response](#json-successful-rename-response)
+[](#)
 
-[JSON Failed RENAME Response](#json-failed-rename-response)
+[JSON Successful SERVE Response](#json-successful-serve-response)
+
+[JSON Failed SERVE Response](#json-failed-serve-response)
 
 ## SERVE Example
 
@@ -30,15 +32,22 @@ The SERVE command returns a data list for the logged in user. Note: HASH and RER
 	
 	`\v4\filelist\rereadrecord.json`
 	
-	Pass in
+Pass in
 
-	Take 1
+Take 1
 
-	Skip
-Is the offset of the list
-wd_List_RecNum
+`Skip`
+	Is the offset of the list
+		
+`wd_List_RecNum`
+	
 	The recnum of file
-wd_List_ID
-Is the list ID of file
-23.3	SERVE Examples for Different Pages
+
+`wd_List_ID`
+
+	Is the list ID of file
+	
+## SERVE Examples for Different Pages
+
 There are many different pages that can be served. Please note while reading the following examples that some of these pages have additional parameters and others do not.
+
