@@ -150,13 +150,13 @@ or
 
 #### Required parameters
 
-	`szSection` INI section in question
+`szSection` INI section in question
 
-	`szINI` INI type
+`szINI` INI type
 	
-	`szKey`
+`szKey`
 
-	`szData` displays the number of files at the bottom of the file list in Worldox
+`szData` displays the number of files at the bottom of the file list in Worldox
 
 ## ini/iniRead.json (Get INI get section) 
 
@@ -166,11 +166,11 @@ or
 
 #### Required parameters
 
-	`szSection` INI section in question
+`szSection` INI section in question
 
-	`szINI` INI type
+`szINI` INI type
 
-	`szKey`
+`szKey`
 
 ### ini/iniReadKey.json (Get INI with key) 
 
@@ -180,11 +180,11 @@ or
 
 #### Required parameters
 
-	`szSection` INI section in question (For example, vtabTree)
+`szSection` INI section in question (For example, vtabTree)
 
-	`szINI` INI type
+`szINI` INI type
 
-	`szKey`
+`szKey`
 
 ### /v4/errorLog/getVar.json
 
@@ -209,7 +209,7 @@ Here is an example of an Error when doing a NewFile.
     }
     ```
     
-23.3.1	filelist/rereadrecord.json (Hash, Reread File) 
+### filelist/rereadrecord.json (Hash, Reread File) 
 Note: HASH and REREAD FILE have the same output
 \v4\filelist\rereadrecord.json
 Pass in
