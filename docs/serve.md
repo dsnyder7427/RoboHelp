@@ -4,9 +4,11 @@ title: SERVE
 nav_order: 17
 ---
 
-#	SERVE
+# SERVE
 
 The SERVE command returns a data list for the logged in user. Note: HASH and REREAD are SERVE commands. 
+
+
 23.1	SERVE Example
 {{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}
 23.2	Parameters
