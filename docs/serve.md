@@ -14,25 +14,6 @@ The SERVE command returns a data list for the logged in user. Note: HASH and RER
 
 [SERVE Examples for Different Pages](#serve-examples-for-different-pages)
 
-[SetField.json FILEWDL (Update Temp WDL)](#setfield.json-filewdl-update-temp-wdl)
-
-[SetField.json FILEWDL (Update Temp WDL)](#setfield.json-filewdl-update-temp-wdl)
-
-[sideMenu expandBranch.json](#sidemenu-expandbranch.json)
-
- 
-23.3.3	sideMenu/favorites.json
-
-23.3.4	sideMenu/bookmarks.json
-
-23.3.5	Favorite Matters
-
-23.3.6	sideMenu/quickprofiles.json
-
-23.3.7	templates/searchList.json
-
-
-
 [JSON Successful SERVE Response](#json-successful-serve-response)
 
 [JSON Failed SERVE Response](#json-failed-serve-response)
@@ -153,3 +134,74 @@ or
 	`/v4/templates/searchList.json`
 
 	Returns the list of Search Templates
+23.3.8	cabinets/folder-list.json
+/v4/cabinets/folder-list.json
+Returns the subfolders of a given folder
+23.3.8.1	Required parameters
+wd_BasePath
+23.3.9	Set INI/iniSet.json
+/v4/ini/iniSet.json
+23.3.9.1	Required parameters
+szSection INI section in question
+szINI INI type
+szKey 
+szData displays the number of files at the bottom of the file list in Worldox
+23.3.10	ini/iniRead.json (Get INI get section) 
+/v4/ini/iniRead.json
+Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
+23.3.10.1	Required parameters
+szSection INI section in question
+szINI INI type
+szKey 
+23.3.11	ini/iniReadKey.json (Get INI with key) 
+/v4/ini/iniReadKey.json
+Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
+23.3.11.1	Required parameters
+szSection INI section in question (For example, vtabTree)
+szINI INI type
+szKey
+23.3.12	/v4/errorLog/getVar.json
+/v4/errorLog/getVar.json&szVar={{ wd_Error_RCTX }}&wd_USER_CODE_ISO2={{ Language Code }}
+The wd_Error_RCTX is the error identifier from the previous failed request.
+The Language Code is the language the text should be in.
+Currently the Language Code only passes US English so the value should be “us”. 
+Here is an example of an Error when doing a NewFile.
+   "errorStatus": {
+        "ErrorCount": "1",
+        "wd_Error_RCID": "8158",
+        "wd_Error_RCTX": "WDRC_XFERFILE_FAIL_CONNECT",
+        "wd_Error_MSG": "WDRC_XFERFILE_FAIL_CONNECT",
+        "wd_Error_VAR": "",
+        "wd_Error_VAL": ""
+    }
+23.3.1	filelist/rereadrecord.json (Hash, Reread File) 
+Note: HASH and REREAD FILE have the same output
+\v4\filelist\rereadrecord.json
+Pass in
+Take 1
+Skip
+Is the offset of the list
+wd_List_RecNum
+	The recnum of file
+wd_List_ID
+Is the list ID of file
+23.3.2	filterlist/filterlist.json 
+/v4/filterlist/filterList.json
+23.3.3	expandBranch.json (TREEOPEN, Workspace children)
+/v4/sideMenu/expandBranch.json
+23.3.3.1	Required parameters
+szSection INI section in question
+szINI INI type
+szKey
+3 returns the content of the child
+5 returns to the (Workspace) parent and collapses the branch
+
+23.3.4	GetRights/userRights.json
+/v4/authentication/userRights.json
+23.3.5	GetVar/getVar.json
+/v4/errorLog/getVar.json
+23.3.5.1	Required parameters
+szVar Error section that user needs txt from
+wd_USER_CODE_ISO2 language country code
+23.3.6	UploadAgent/uploadAgent.json
+/v4/wdAgent/uploadAgent.json
