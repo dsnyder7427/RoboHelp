@@ -14,7 +14,7 @@ The SERVE command returns a data list for the logged in user. Note: HASH and RER
 
 [SERVE Examples for Different Pages](#serve-examples-for-different-pages)
 
-[](#)
+[SetField.json FILEWDL (Update Temp WDL)](#setfield.json-filewdl-update-temp-wdl)
 
 [JSON Successful SERVE Response](#json-successful-serve-response)
 
@@ -50,4 +50,40 @@ Take 1
 ## SERVE Examples for Different Pages
 
 There are many different pages that can be served. Please note while reading the following examples that some of these pages have additional parameters and others do not.
+
+### SetField.json FILEWDL (Update Temp WDL)
+
+`/v4/fileActions/SetField.json`
+
+	For a given list_ID and Recnum set metadata
+
+#### Required parameters
+
+`wd_List_ID, wd_List_RecNum, nElemId, szData`
+
+	The FILEWDL command adds or removes a file from the .wdl project.
+
+`wd_list_ID`
+	
+	Is the list ID of a project
+
+`wd_SID`
+	
+	Is the Worldox session ID
+`Html1`
+
+	Should be /v4/errorlog/error.json or something similar since the API will only return whether it worked or not
+
+`wd_List_RecNum`
+
+	Is the existing record number of an item in the wdl if you want to remove it. If there is no RecNum, use -1. 
+
+`wd_File_PathFile_Value`
+	
+	Is the file to add
+
+`nElemID`
+
+	Is the file’s element ID
+`szData`
 
