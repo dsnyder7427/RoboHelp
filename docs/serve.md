@@ -26,8 +26,9 @@ The SERVE command returns a data list for the logged in user. Note: HASH and RER
 
 ## SERVE Example
 
-`{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}`
-
+```
+{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}
+```
 
 ## SERVE Parameters
 
@@ -35,7 +36,9 @@ The SERVE command returns a data list for the logged in user. Note: HASH and RER
 	
 	This is the page to be served.
 	
-	`\v4\filelist\rereadrecord.json`
+	```
+	\v4\filelist\rereadrecord.json
+	```
 	
 Pass in
 
