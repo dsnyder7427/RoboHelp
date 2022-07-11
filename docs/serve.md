@@ -115,6 +115,7 @@ or
 ### sideMenu/favorites.json
 
 	`/v4/sideMenu/favorites.json`
+		
 	
 	Returns the list of Favorite File categories
 
@@ -122,6 +123,7 @@ or
 
 	`/v4/sideMenu/bookmarks.json`
 
+	
 	Returns the list of Bookmarks
 
 ### Favorite Matters
