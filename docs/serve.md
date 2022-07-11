@@ -25,9 +25,9 @@ The SERVE command returns a data list for the logged in user. Note: HASH and RER
 
 
 ## SERVE Example
-```
-{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}
-```
+
+`{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}`
+
 
 ## SERVE Parameters
 
@@ -60,7 +60,7 @@ There are many different pages that can be served. Please note while reading the
 
 `/v4/fileActions/SetField.json`
 
-	For a given list_ID and Recnum set metadata
+For a given list_ID and Recnum set metadata
 
 #### Required parameters
 
