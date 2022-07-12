@@ -29,19 +29,33 @@ The FINDFILES command is the Worldox search command. It is a GET request. It is 
 `{{url}}/cgi-bin/wdwebcgi.exe?FINDFILES&wd_SID={{session}}&html=/v4/filelist/fileList.json&wd_FIND_QUERY={{findQuery}}&skip=&{{skip}}&take={{take}}`
 
 ## FINDFILES Parameters	
+
 `HTMLOnOK`
+
 This is the page to return on a successful call to FINDFILES.
+
 `v4\filelist\fileList.json`
+
 **Note:** 'api' is deprecated but still can be used. Going forward v4 is the best practice.
+
 `HTMLOnFail`
+
 This is the page to return on a failed FINDFILES.
+
 `v4\filelist\fileList.json`
+
 **Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
 `wd_FIND_QUERY`
+
 Is the search used in the session authenticated to the URL
+
 `Skip`
-	Is where you start. 0 is the value. 
+
+Is where you start. 0 is the value. 
+
 `Take`
+
 Is set to 500, which is the current default. Note: In the future, you can configure this to be a greater value. 
 
 
