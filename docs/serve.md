@@ -11,24 +11,17 @@ The SERVE command returns a data list for the logged in user. **Note:** HASH and
 
 [SERVE Example](#serve-example)
 
-
 [SERVE Parameters](#serve-parameters)
-
 
 [SERVE Examples for Different Pages](#serve-examples-for-different-pages)
 
-
 [JSON Successful SERVE Response](#json-successful-serve-response)
-
 
 [JSON Failed SERVE Response](#json-failed-serve-response)
 
-
 [Create a Temporary WDL File](#create-a-temporary-wdl-file)
 
-
 [Download a Temporary WDL File](#download-a-temporary-wdl-file)
-
 
 [JSON Successful Download Output for a Temporary WDL File](#json-successful-download-output-for-a-temporary-wdl-file)
 
@@ -37,7 +30,6 @@ The SERVE command returns a data list for the logged in user. **Note:** HASH and
 
 `{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID=`
 `{{session}}&html={{page}}`
-
 
 ## SERVE Parameters
 
