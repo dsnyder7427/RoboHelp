@@ -53,15 +53,16 @@ Pass in
 Take 1
 
 `Skip`
-	Is the offset of the list
+
+Is the offset of the list
 		
 `wd_List_RecNum`
-	
-	The recnum of file
+
+The recnum of file
 
 `wd_List_ID`
 
-	Is the list ID of file
+Is the list ID of file
 	
 ## SERVE Examples for Different Pages
 
@@ -77,43 +78,44 @@ For a given list_ID and Recnum set metadata
 
 `wd_List_ID, wd_List_RecNum, nElemId, szData`
 
-	The FILEWDL command adds or removes a file from the .wdl project.
+The FILEWDL command adds or removes a file from the .wdl project.
 
 `wd_list_ID`
-	
-	Is the list ID of a project
+
+Is the list ID of a project
 
 `wd_SID`
 	
-	Is the Worldox session ID
+Is the Worldox session ID
+
 `Html1`
 
-	Should be /v4/errorlog/error.json or something similar since the API will only return whether it worked or not
+Should be /v4/errorlog/error.json or something similar since the API will only return whether it worked or not
 
 `wd_List_RecNum`
 
-	Is the existing record number of an item in the wdl if you want to remove it. If there is no RecNum, use -1. 
+Is the existing record number of an item in the wdl if you want to remove it. If there is no RecNum, use -1. 
 
 `wd_File_PathFile_Value`
 	
-	Is the file to add
+Is the file to add
 
 `nElemID`
 
-	Is the file’s element ID
+Is the file’s element ID
+
 `szData`
 
 **/v4/sideMenu/expandBranch.json**
 
-	`/v4/sideMenu/expandBranch.json`
+`/v4/sideMenu/expandBranch.json`
 
-	
-	Returns the list of children within workspaces. 
+Returns the list of children within workspaces. 
 
 `{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&Wd_List_RecNum=1&html=/v4/sideMenu/expandBranch.json&wd_List_ID={{wkspId}}&dwRecNum=53715132&dwExpand=3
 dwExpand`
 
-	Is a parameter. The two values it can have are
+Is a parameter. The two values it can have are
 
 `3` to expand the tree 
 
@@ -121,39 +123,37 @@ or
 
 `5` to close the tree.
 
-	For information about TREEVIEW (Workspace Parent), see the *TREEVIEW (Workspace Parent)* section. 
+For information about TREEVIEW (Workspace Parent), see the *TREEVIEW (Workspace Parent)* section. 
 
 **sideMenu/favorites.json**
 
-	`/v4/sideMenu/favorites.json`
+`/v4/sideMenu/favorites.json`
 		
-	
-	Returns the list of Favorite File categories
+Returns the list of Favorite File categories
 
 **sideMenu/bookmarks.json**
 
-	`/v4/sideMenu/bookmarks.json`
+`/v4/sideMenu/bookmarks.json`
 
-	
-	Returns the list of Bookmarks
+Returns the list of Bookmarks
 
 **Favorite Matters**
 
-	`/v4/sideMenu/favMatters.json`
+`/v4/sideMenu/favMatters.json`
 
-	This is the html parameter specified in the SERVE example at the beginning of this section. Returns the list of Favorite Matters.
+This is the html parameter specified in the SERVE example at the beginning of this section. Returns the list of Favorite Matters.
 
 **sideMenu/quickprofiles.json**
 
-	`/v4/sideMenu/quickprofiles.json`
+`/v4/sideMenu/quickprofiles.json`
 
-	Returns the list of Quick Profiles for SaveAs
+Returns the list of Quick Profiles for SaveAs
 
 **templates/searchList.json**
 
-	`/v4/templates/searchList.json`
+`/v4/templates/searchList.json`
 
-	Returns the list of Search Templates
+Returns the list of Search Templates
 
 **cabinets/folder-list.json**
 
@@ -197,7 +197,7 @@ Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
 
 `/v4/ini/iniReadKey.json`
 
-	Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
+Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
 
 #### Required parameters
 
@@ -211,7 +211,7 @@ Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
 
 `/v4/errorLog/getVar.json&szVar={{ wd_Error_RCTX }}&wd_USER_CODE_ISO2={{ Language Code }}`
 
-	The `wd_Error_RCTX` is the error identifier from the previous failed request.
+The `wd_Error_RCTX` is the error identifier from the previous failed request.
 
 The Language Code is the language the text should be in.
 
