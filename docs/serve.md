@@ -24,9 +24,11 @@ The SERVE command returns a data list for the logged in user. **Note:** HASH and
 [JSON Failed SERVE Response](#json-failed-serve-response)
 
 
-[Create a Temporary File](#create-a-temporary-file)
+[Create a Temporary WDL File](#create-a-temporary-wdl-file)
 
-[Download a Temporary File](#download-a-temporary-file)
+
+[Download a Temporary WDL File](#download-a-temporary-wdl-file)
+
 
 [JSON Successful Download Output for a Temporary WDL File](#json-successful-download-output-for-a-temporary-wdl-file)
 
@@ -65,13 +67,13 @@ Take 1
 
 There are many different pages that can be served. Please note while reading the following examples that some of these pages have additional parameters and others do not.
 
-### SetField.json FILEWDL (Update Temp WDL)
+**SetField.json FILEWDL (Update Temp WDL)**
 
 `/v4/fileActions/SetField.json`
 
 For a given list_ID and Recnum set metadata
 
-#### Required parameters
+**Required parameters**
 
 `wd_List_ID, wd_List_RecNum, nElemId, szData`
 
@@ -101,7 +103,7 @@ For a given list_ID and Recnum set metadata
 	Is the file’s element ID
 `szData`
 
-### /v4/sideMenu/expandBranch.json
+**/v4/sideMenu/expandBranch.json**
 
 	`/v4/sideMenu/expandBranch.json`
 
@@ -120,53 +122,54 @@ or
 `5` to close the tree.
 
 	For information about TREEVIEW (Workspace Parent), see the *TREEVIEW (Workspace Parent)* section. 
- 
-### sideMenu/favorites.json
+
+**sideMenu/favorites.json**
 
 	`/v4/sideMenu/favorites.json`
 		
 	
 	Returns the list of Favorite File categories
 
-### sideMenu/bookmarks.json
+**sideMenu/bookmarks.json**
 
 	`/v4/sideMenu/bookmarks.json`
 
 	
 	Returns the list of Bookmarks
 
-### Favorite Matters
+**Favorite Matters**
 
 	`/v4/sideMenu/favMatters.json`
 
 	This is the html parameter specified in the SERVE example at the beginning of this section. Returns the list of Favorite Matters.
 
-### sideMenu/quickprofiles.json
+**sideMenu/quickprofiles.json**
 
 	`/v4/sideMenu/quickprofiles.json`
 
 	Returns the list of Quick Profiles for SaveAs
 
-### templates/searchList.json
+**templates/searchList.json**
 
 	`/v4/templates/searchList.json`
 
 	Returns the list of Search Templates
-### cabinets/folder-list.json
+
+**cabinets/folder-list.json**
 
 `/v4/cabinets/folder-list.json`
 
-	Returns the subfolders of a given folder
+Returns the subfolders of a given folder
 	
-#### Required parameters
+**Required parameters**
 
 `wd_BasePath`
 
-### Set INI/iniSet.json
+**Set INI/iniSet.json**
 
 `/v4/ini/iniSet.json`
 
-#### Required parameters
+**Required parameters**
 
 `szSection` INI section in question
 
@@ -176,13 +179,13 @@ or
 
 `szData` displays the number of files at the bottom of the file list in Worldox
 
-## ini/iniRead.json (Get INI get section) 
+**ini/iniRead.json (Get INI get section)**
 
 `v4/ini/iniRead.json`
 
-	Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
+Read from the Worldox.ini, WD$$$$$$.ini or wdhook/wduser.ini
 
-#### Required parameters
+**Required parameters**
 
 `szSection` INI section in question
 
