@@ -282,3 +282,172 @@ Is the list ID of file
 ### UploadAgent/uploadAgent.json
 
 `/v4/wdAgent/uploadAgent.json`
+
+## JSON Successful SERVE Response
+
+Reread File was used for this successful SERVE example in JSON.
+
+Note that when the response is successful, the ErrorCount value is blank. 
+
+```
+{
+    "root": {
+        "errorStatus": {
+            "List_ID": "x26BC0D0",
+            "List_Count": "23",
+            "ErrorCount": "",
+            "wd_Error_RCID": "",
+            "wd_Error_RCTX": "",
+            "wd_Error_MSG": "",
+            "wd_Error_VAR": "",
+            "wd_Error_VAL": "",
+            "wd_Tab": "10613:All",
+            "wd_Title": "All",
+            "wd_Desc": "Favorite Files",
+            "wd_Desc_Loc": "Favorite Files",
+            "wd_Raw_Loc": "Favorite Files",
+            "wd_True_Loc": "Favorite Files",
+            "wd_List_Count_ALL": "23",
+            "wd_List_Count_XML": "23",
+            "wd_Groupings": "0"
+        },
+        "data": [
+            {
+                "XN": "2001 natural gas forecast",
+                "FN": "00001197.msg",
+                "UPD": "1490727048",
+                "SZ": "18.4 KB",
+                "I": "0",
+                "stFl": "5",
+                "stIc": "0",
+                "HASH": "xF2BB3F5D",
+                "FPR": "\\\\#\\005\\00060\\0140\\00001197.msg",
+                "LN": "1",
+                "RN": "18",
+                "LID": "x26BC0D0",
+                "F1C": "00060",
+                "F1D": "Display Producers",
+                "F1N": "Client",
+                "F2C": "0140",
+                "F2D": "Fifth Ave Real Estate Purchase",
+                "F2N": "Matter",
+                "F3C": "AGR",
+                "F3D": "Agreement",
+                "F3N": "DocType",
+                "F5C": "RYAN",
+                "F5D": "Mosto, Ryan",
+                "F5N": "Author",
+                "F6C": "RYAN",
+                "F6D": "Mosto, Ryan",
+                "F6N": "Typist",
+                "ACC": "1556647200",
+                "CRTD": "978372000",
+                "CBID": "5",
+                "CBNM": "Client Files",
+                "LOC": "Client Files\\00060\\0140",
+                "EXT": "MSG",
+                "OW": "Demo User (DEMO22)",
+                "FF": "BB_HEART",
+                "GT": "MSG",
+                "Name": "2001 natural gas forecast (00001197x51615).MSG",
+                "PSD": "<undefined>"
+            }
+        ]
+    }
+}
+```
+
+## JSON Failed SERVE Response
+
+Reread File was used for this failed SERVE example in JSON.
+
+Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+
+```
+{
+    "root": {
+        "errorStatus": {
+            "List_ID": "x26BC0D0",
+            "List_Count": "",
+            "ErrorCount": "1",
+            "wd_Error_RCID": "8740",
+            "wd_Error_RCTX": "WDRC_SID_INVALID",
+            "wd_Error_MSG": "WDRC_SID_INVALID",
+            "wd_Error_VAR": "wd_SID",
+            "wd_Error_VAL": "WLgaeeJYQElNZIurVAp7ckZ6ocruWU0crN4RRny07ShkouEiOIKcd$2FPQDlo$3Dshrshr",
+            "wd_Tab": ":",
+            "wd_Title": "",
+            "wd_Desc": "",
+            "wd_Desc_Loc": "",
+            "wd_Raw_Loc": "",
+            "wd_True_Loc": "",
+            "wd_List_Count_ALL": "",
+            "wd_List_Count_XML": "",
+            "wd_Groupings": "0"
+        },
+        "data": [
+            {
+                "XN": "%:Xname%",
+                "FN": "%:DOCID%",
+                "UPD": "%:wUPDATED%",
+                "SZ": "%:SIZE%",
+                "CM": "%:COMMENTS%",
+                "VER": "%:VERSION%",
+                "dwRC": "%:dwRC%",
+                "I": "%:wSTATUSID%",
+                "stFl": "%:wSTATUS_FLAGS%",
+                "stIc": "%:wSTATUS_ICON%",
+                "CAT_ID":%CATS_JSON%,
+                "HASH": "%:H#%",
+                "FPR": "%:UNCPG_PATHFILE%",
+                "LN": "%:L#%",
+                "RN": "%:R#%",
+                "LID": "x26BC0D0",
+                "F1C": "%:FIELD1%",
+                "F1D": "%:FIELD1DESC%",
+                "F1N": "%:Field1Name%",
+                "F2C": "%:FIELD2%",
+                "F2D": "%:FIELD2DESC%",
+                "F2N": "%:Field2Name%",
+                "F3C": "%:FIELD3%",
+                "F3D": "%:FIELD3DESC%",
+                "F3N": "%:Field3Name%",
+                "F4C": "%:FIELD4%",
+                "F4D": "%:FIELD4DESC%",
+                "F4N": "%:Field4Name%",
+                "F5C": "%:FIELD5%",
+                "F5D": "%:FIELD5DESC%",
+                "F5N": "%:Field5Name%",
+                "F6C": "%:FIELD6%",
+                "F6D": "%:FIELD6DESC%",
+                "F6N": "%:Field6Name%",
+                "F7C": "%:FIELD7%",
+                "F7D": "%:FIELD7DESC%",
+                "F7N": "%:Field7Name%",
+                "ACC": "%:wACCESSED%",
+                "CRTD": "%:wCREATED%",
+                "PathMap": "%:PATHMAP%",
+                "CBID": "%:wGROUP%",
+                "CBNM": "%:GROUP%",
+                "LOC": "%:PATH%",
+                "EXT": "%:EXT%",
+                "OW": "%:OWNERINIT%",
+                "FF": "%:FAVORITE%",
+                "GT": "%:EXT%",
+                "Name": "%:LONGNAME%",
+                "szRC": "%:szRC%",
+                "CHKOUT_TO_PREF": "%:CHKOUT_TO_PREF%",
+                "CHKOUT_TO_NAME": "%:CHKOUT_TO_NAME%",
+                "CHKOUT_ON_PREF": "%:CHKOUT_ON_PREF%",
+                "CHKOUT_ON_DATE": "%:CHKOUT_ON_DATE%",
+                "CHKOUT_TO_LINE": "%:CHKOUT_TO_LINE%",
+                "PSL": "%:SHARED_LINK%",
+                "PSU": "%:SHARED_USER%",
+                "PSD": "%:SHARED_DATE%"
+            }
+        ]
+    }
+}
+```
+
+
