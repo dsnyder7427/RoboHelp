@@ -451,3 +451,46 @@ Note that when the response has failed, the ErrorCount value has a number, the R
 ```
 
 
+## Create a Temporary WDL File
+
+To create a temporary WDL file, you must perform the following steps in order.
+
+1. Login (if your session has ended). If necessary, see LOGON for details.
+2. Send OPENWDL. For details, see OPENWDL (Create Temp WDL).
+3. Send FINDFILES to create a temporary list (Create Temp List). (FINDFILES is used for the Get List SERVE command.) You will need the List ID from Create Temp List output. For details, see FINDFILES (Get List, Create Temp List, SORTFILES).
+4. Use the SERVE command, FILEWDL Update Temp WDL.  For details, see SetField.json FILEWDL (Update Temp WDL). 
+
+
+## Download a Temporary WDL File
+
+1. Login (if your session has ended). If necessary, see LOGON for details.
+2. Send OPENWDL. For details, see OPENWDL (Create Temp WDL).
+3. Send FINDFILES to create a temporary list (Create Temp List). (FINDFILES is used for the Get List SERVE command.) You will need the List ID from Create Temp List output. For details, see FINDFILES (Get List, Create Temp List, SORTFILES).
+4. Use the SERVE command, FILEWDL Update Temp WDL.  For details, see SetField.json FILEWDL (Update Temp WDL). 
+5. Send DOWNLOAD. For details, see DOWNLOAD. Note: Pass a RecNum of -1 if there is no record number.
+
+## JSON Successful Download Output for a Temporary WDL File
+
+```
+{
+    "root": {
+        "data": {
+            "fileLoc": "/cgi-bin/WDSIDS/E7V216TmlZQGnwR7aZWDKOp9BI1hdDehU%242Bd9FK1I5YQlx2sR5UZ%242F%242BeIPz4Q%243D/OPEN/Temp%20wdl%20from%20postman.WDL",
+            "FileNme": "",
+            "FileZMS": ""
+        },
+        "errorStatus": {
+            "ErrorCount": "",
+            "wd_Error_RCID": "",
+            "wd_Error_RCTX": "",
+            "wd_Error_MSG": "",
+            "wd_Error_VAR": "",
+            "wd_Error_VAL": "",
+            "wd_Error_DOCID": "",
+            "wd_Error_DOCNAME": "",
+            "req_ID": "",
+            "Error": ""
+        }
+    }
+}
+```
