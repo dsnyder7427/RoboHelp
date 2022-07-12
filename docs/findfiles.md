@@ -61,10 +61,15 @@ Is set to 500, which is the current default. Note: In the future, you can config
 
 ## FINDFILES Sort Values
 `wd_file_sort_key1`
+
 Is whatever the column ID is
+
 `wd_file_sort_dir1`
+
 	`1` sorts the column in descending order
+	
 	`0` sorts the column in ascending order
+	
 `wd_File_Updated_Value`
 `wd_File_Version_Value`
 `wd_File_Size_Value`
