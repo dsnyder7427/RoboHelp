@@ -20,18 +20,31 @@ The CLOSELIST command closes the Worldox Web file list.
 `/cgi-bin/wdwebcgi.exe?CLOSELIST&wd_SID={{session}}`
 
 ## CLOSELIST Parameters
+
 `wd_SID`
+
 The Worldox session ID
+
 `wd_List_ID`
+
 The Worldox list to close
+
 `HTMLOnOK`
+
 This is the page to return on a successful call to CLOSELIST.
+
 `v4\fileActions\closeList.json`
+
 **Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
 `TMLOnFail`
+
 This is the page to return on a failed CLOSELIST.
+
 `v4\fileActions\closeList.json`
+
 **Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
 ## JSON Successful CLOSELIST Response
 
 Note that when the response is successful, the `ErrorCount` value is blank. 
@@ -68,4 +81,5 @@ Note that when the response has failed, the `ErrorCount` value has a number, the
             "wd_Error_VAL": ""
         },
         "data": ""
-    }```
+    }
+```
