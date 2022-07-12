@@ -4,7 +4,6 @@ title: SORTFILES
 nav_order: 21
 ---
 
-[
 # SORTFILES
 
 The SORTFILES command can be called to re-sort a list. Note: FINDFILES is used for GetList and Create Temp list. SORTFILES is a separate command, but it can use the same output as FINDFILES.
