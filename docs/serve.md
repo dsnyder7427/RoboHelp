@@ -30,6 +30,8 @@ The SERVE command returns a data list for the logged in user. **Note:** HASH and
 
 `{`{``url`}}`/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html=`{`{`page``}`}`
 
+`{``{``url``}`}``/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html=``{``{`page``}``}`
+
 ## SERVE Parameters
 
 `HTML`
