@@ -1,49 +1,114 @@
-24	SORTFILES
+---
+layout: default
+title: SORTFILES
+nav_order: 21
+---
+
+[
+# SORTFILES
+
 The SORTFILES command can be called to re-sort a list. Note: FINDFILES is used for GetList and Create Temp list. SORTFILES is a separate command, but it can use the same output as FINDFILES.
-24.1	SORTFILES Example
-{{domain}}/cgi-bin/wdwebcgi.exe?SORTFILES&wd_SID={{session}}&wd_List_ID={{File list ID}}&Wd_File_Sort_Key1={{columnID}}&wd_File_Sort_Dir1={{ 0 for accending / 1 for decending }}&skip={{ numeric digit where to start the list }}&take={{ numeric digit where to stop the list }}&html=/v4/filelist/fileList.json 
-24.2	Parameters
-wd_SID
+
+[SORTFILES Example](#sortfiles-example)
+
+[SORTFILES Parameters](#sorftiles-parameters)
+
+[Sort Values](#sort-values)
+
+[JSON Successful SORTFILES Response](#json-successful-sortfiles-response)
+
+[JSON Failed SORTFILES Response](#json-failed-sortfiles-response)
+
+
+## SORTFILES Example
+
+`{{domain}}/cgi-bin/wdwebcgi.exe?SORTFILES&wd_SID={{session}}&wd_List_ID={{File list ID}}&Wd_File_Sort_Key1={{columnID}}&wd_File_Sort_Dir1={{ 0 for accending / 1 for decending }}&skip={{ numeric digit where to start the list }}&take={{ numeric digit where to stop the list }}&html=/v4/filelist/fileList.json`
+
+## SORTFILES Parameters
+
+`wd_SID`
+
 This command is the Worldox session ID.
-HTMLOnOK
+
+`HTMLOnOK`
+
 This is the page to return on a successful call to SORTFILES.
-v4\fileList\fileList.json 
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
-HTMLOnFail
+
+`v4\fileList\fileList.json` 
+
+**Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
+`HTMLOnFail`
+
 This is the page to return on a failed upload.
-v4\fileList\fileList.json 
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
-Skip
-	Is where you start. 0 is the value. 
-Take
+
+`v4\fileList\fileList.json`
+
+**Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
+`Skip`
+
+Is where you start. 0 is the value. 
+
+`Take`
+
 Is set to 500, which is the current default. Note: In the future, you can configure this to be a greater value. 
-wd_List_ID(6254)
+
+`wd_List_ID(6254)`
+
 Parameter previously returned from FINDFILES.
-Wd_List_RecNum(6262)
+
+`Wd_List_RecNum(6262)`
+
 Set to 0
-Wd_File_Sort_Key1(6282)
+
+`Wd_File_Sort_Key1(6282)`
+
 Primary Sort key
-Wd_File_Sort_Key2(6284)
+
+`Wd_File_Sort_Key2(6284)`
+
 Secondary Sort key
-Wd_File_Sort_Key1(6290)
+
+`Wd_File_Sort_Key1(6290)`
+
 Primary Sort Direction
-Wd_File_Sort_Key2(6292)
+
+`Wd_File_Sort_Key2(6292)`
+
 Secondary Sort Direction
-Offset
+
+`Offset`
+
 (Starting offset) set to 1
-24.3	Sort Values
-wd_File_Updated_Value
+
+## Sort Values
+
+`wd_File_Updated_Value`
+
 5374
-wd_File_Version_Value
+
+`wd_File_Version_Value`
+
 5376
-wd_File_Size_Value
+
+`wd_File_Size_Value`
+
 5368
-wd_File_Xname_Value
+
+`wd_File_Xname_Value`
+
 5380
-wd_File_FileName_Value
+
+`wd_File_FileName_Value`
+
 5348
-24.4	JSON Successful SORTFILES Response
+
+## JSON Successful SORTFILES Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+
+```
 {
     "root": {
         "errorStatus": {
@@ -126,8 +191,13 @@ Note that when the response is successful, the ErrorCount value is blank.
         ]
     }
 }
-24.5	JSON Failed SORTFILES Response
+```
+
+## JSON Failed SORTFILES Response
+
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+
+```
 {
     "root": {
         "errorStatus": {
@@ -218,5 +288,6 @@ Note that when the response has failed, the ErrorCount value has a number, the R
         ]
     }
 }
+```
  
 
