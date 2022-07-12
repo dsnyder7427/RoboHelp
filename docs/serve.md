@@ -24,13 +24,17 @@ The SERVE command returns a data list for the logged in user. **Note:** HASH and
 [JSON Failed SERVE Response](#json-failed-serve-response)
 
 
+[Create a Temporary File](#create-a-temporary-file)
+
+[Download a Temporary File](#download-a-temporary-file)
+
+[JSON Successful Download Output for a Temporary WDL File](#json-successful-download-output-for-a-temporary-wdl-file)
+
 
 ## SERVE Example
 
 ```
-
 {{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}
-
 ```
 
 
