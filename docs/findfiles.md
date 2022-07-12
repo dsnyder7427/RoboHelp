@@ -71,9 +71,13 @@ Is whatever the column ID is
 	`0` sorts the column in ascending order
 	
 `wd_File_Updated_Value`
+
 `wd_File_Version_Value`
+
 `wd_File_Size_Value`
+
 `wd_File_Xname_Value`
+
 `wd_File_FileName_Value`
 
 ## JSON Response Keys for FINDFILES
