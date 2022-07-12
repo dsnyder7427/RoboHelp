@@ -24,9 +24,11 @@ The SERVE command returns a data list for the logged in user. **Note:** HASH and
 [JSON Failed SERVE Response](#json-failed-serve-response)
 
 
+
 ## SERVE Example
 
 `{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}`
+
 
 ## SERVE Parameters
 
