@@ -55,4 +55,3 @@ Note that the following requests are used in the API:
 
 - GET requests retrieve data
 
-
