@@ -1,3 +1,9 @@
+---
+layout: default
+title: TREEOPEN Workspace Children
+nav_order: 23
+---
+
 # TREEOPEN (WORKSPACE CHILDREN) 
 
 The TREEOPEN command expands a branch of a parent child list. Please also see `/v4/sideMenu/expandBranch.json`.
