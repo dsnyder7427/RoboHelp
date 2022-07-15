@@ -11,6 +11,8 @@ The SERVE command returns a data list for the logged in user. **Note:** HASH and
 
 [SERVE Example](#serve-example)
 
+{{url}}/cgi-bin/wdwebcgi.exe?SERVE&wd_SID={{session}}&html={{page}}
+
 [SERVE Parameters](#serve-parameters)
 
 [SERVE Examples for Different Pages](#serve-examples-for-different-pages)
