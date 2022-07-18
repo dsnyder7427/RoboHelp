@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2FSET
-nav_order: 24
+nav_order: 26
 ---
 
 # 2FSET: ADD/EDIT/DELETE: TWO FACTOR AUTHENTICATION (2FA)
