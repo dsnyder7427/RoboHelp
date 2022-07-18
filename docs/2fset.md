@@ -234,7 +234,7 @@ Once submitted and successful, the Response should return a Ref ID. An email or 
 
 `wd_2FA_RecAddress`: {Cell phone # or email}
  
-## JSON Successful Edit a Record JSON Response
+### JSON Successful Edit a Record JSON Response
 
 Note that when the response is successful, the ErrorCount value is blank. 
 
