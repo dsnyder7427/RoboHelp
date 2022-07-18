@@ -12,7 +12,15 @@ You can use the ADD, EDIT and DELETE SET commands to add, edit or delete devices
 
 **Note:** All POST requests that require a session require the session to be decoded either on the Body or as Parameter on the URL.
 
-##	2FSET Examples
+[2FSET Examples](#2fset-examples)
+
+[2FSET Parameters](#2fset-parameters)
+
+[JSON Successful 2FSET Response](#json-successful-2fset-response)
+
+[JSON Failed 2FSET Response](#json-failed-2fset-response)
+
+## 2FSET Examples
 
 ### Add a Record
 
