@@ -18,7 +18,15 @@ You can use the ADD, EDIT and DELETE SET commands to add, edit or delete devices
 
 [JSON Successful Add a Record 2FSET Response](#json-successful-add-a-record-2fset-response)
 
-[JSON Failed 2FSET Response](#json-failed-2fset-response)
+[JSON Failed Add a Record 2FSET Response](#json-failed-add-a-record-2fset-response)
+
+[JSON Successful Delete a Record 2FSET Response](#json-successful-delete-a-record-2fset-response)
+
+[JSON Failed Delete a Record 2FSET Response](#json-failed-delete-a-record-2fset-response)
+
+[JSON Successful Edit a Record 2FSET Response](#json-successful-edit-a-record-2fset-response)
+
+[JSON Failed Edit a Record 2FSET Response](#json-failed-edit-a-record-2fset-response)
 
 ## 2FSET Examples
 
