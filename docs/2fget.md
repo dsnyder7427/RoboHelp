@@ -48,8 +48,12 @@ Email addresses are hidden with asterisks:
 "NAME":"John’s Cell",
 "FLAG":"Yes"
 },
-28.3	JSON Successful 2FGET Response
+
+## SON Successful 2FGET Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+
+```
 {
     "root": {
         "errorStatus": {
@@ -83,8 +87,13 @@ Note that when the response is successful, the ErrorCount value is blank.
         ]
     }
 }
-28.4	JSON Failed 2FGET Response
+```
+
+## SON Failed 2FGET Response
+
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+
+```
 {
     "root": {
         "errorStatus": {
@@ -119,5 +128,5 @@ Note that when the response has failed, the ErrorCount value has a number, the R
         ]
     }
 }
-
+```
 
