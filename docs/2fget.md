@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2FGET
-nav_order: 23
+nav_order: 25
 ---
 
 ## 2FGET: TWO FACTOR AUTHENTICATION (2FA)
