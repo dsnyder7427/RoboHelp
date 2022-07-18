@@ -67,7 +67,7 @@ Once submitted and successful, the Response should return a Ref ID. An email or 
 
 Once successful, a new item should be added to the list.
 
-### JSON Successful Add a Record JSON Response
+### JSON Successful Add a Record 2FSET Response
 Note that when the response is successful, the ErrorCount value is blank. 
 {
     "root": {
@@ -86,7 +86,7 @@ Note that when the response is successful, the ErrorCount value is blank.
     }
 }
 
-### JSON Failed Add a Record JSON Response
+### JSON Failed Add a Record 2FSet Response
 
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 
@@ -135,7 +135,7 @@ Pass the following into the body:
 
 `wd_2FA_RecAddress`: {Cell phone # or email}
 
-### JSON Successful Delete a Record JSON Response
+### JSON Successful Delete a Record 2FSET Response
 
 Note that when the response is successful, the ErrorCount value is blank. 
 
@@ -159,7 +159,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 ]
 ```
 
-###	JSON Failed Delete a Record JSON Response
+###	JSON Failed Delete a Record 2FSET Response
 
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 
@@ -242,7 +242,7 @@ Once submitted and successful, the Response should return a Ref ID. An email or 
 
 `wd_2FA_RecAddress`: {Cell phone # or email}
  
-### JSON Successful Edit a Record JSON Response
+### JSON Successful Edit a Record 2FSET Response
 
 Note that when the response is successful, the ErrorCount value is blank. 
 
@@ -265,7 +265,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 }
 ```
 
-### JSON Failed Edit a Record JSON Response
+### JSON Failed Edit a Record 2FSET Response
 
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 
