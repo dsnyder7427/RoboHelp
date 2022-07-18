@@ -13,18 +13,32 @@ To elaborate, the 2FGET command retrieves a list of devices, email addresses and
 This will return the entire list.
 
 ## 2FGET Parameters
-wd_SID
+
+`wd_SID`
+
 The Worldox session ID
-HTMLOnOK
+
+`HTMLOnOK`
+
 This is the page to be returned on a success.
-HTMLOnFAIL
+
+`HTMLOnFAIL`
+
 This is the page to be returned on a failure.
-WD_List_Filter
-Redact>0. If Redact is set to be less than 0, contact information is shown. 
-Redact>1. If Redact is set to be less than 1, asterisks appear in the output to hide email addresses or phone numbers.
+
+`WD_List_Filter`
+
+`Redact>0`. If Redact is set to be less than 0, contact information is shown. 
+
+`Redact>1`. If Redact is set to be less than 1, asterisks appear in the output to hide email addresses or phone numbers.
+
 If
-WD_List_Filter=Redact>0
+
+`WD_List_Filter=Redact>0`
+
 Contact information (email addresses or cell phone numbers) are shown:
+
+```
 {
 "Rec": "1",
 "L": "2",
@@ -34,10 +48,15 @@ Contact information (email addresses or cell phone numbers) are shown:
 "NAME": "John’s Cell",
 "FLAG": "Yes"
 },
+```
+
 If
-WD_List_Filter=Redact>1
-Email addresses are hidden with asterisks:
-{
+
+`WD_List_Filter=Redact>1`
+
+Email addresses are hidden with asterisks:{
+
+```
 "Rec":"1",
 "L":"2",
 "ADDR":"(***) ***-**79",
@@ -46,8 +65,9 @@ Email addresses are hidden with asterisks:
 "NAME":"John’s Cell",
 "FLAG":"Yes"
 },
+```
 
-## SON Successful 2FGET Response
+## JSON Successful 2FGET Response
 
 Note that when the response is successful, the ErrorCount value is blank. 
 
@@ -87,7 +107,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 }
 ```
 
-## SON Failed 2FGET Response
+## JSON Failed 2FGET Response
 
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 
