@@ -1,3 +1,9 @@
+---
+layout: default
+title: 2FSET
+nav_order: 24
+---
+
 # 2FSET: ADD/EDIT/DELETE: TWO FACTOR AUTHENTICATION (2FA)
 
 **Note:** You will need Worldox Web 3.0 Rev: 140311 or newer to use this API command.
