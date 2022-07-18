@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2FSET ADD/EDIT/DELETE: TWO FACTOR AUTHENTICATION (2FA)
+title: 2FSET
 nav_order: 26
 ---
 
@@ -14,15 +14,21 @@ You can use the ADD, EDIT and DELETE SET commands to add, edit or delete devices
 
 [2FSET Examples](#2fset-examples)
 
+[Add a Record](#add-a-record)
+
 [2FSET Parameters](#2fset-parameters)
 
 [JSON Successful Add a Record 2FSET Response](#json-successful-add-a-record-2fset-response)
 
 [JSON Failed Add a Record 2FSET Response](#json-failed-add-a-record-2fset-response)
 
+[Delete a Record](#delete-a-record)
+
 [JSON Successful Delete a Record 2FSET Response](#json-successful-delete-a-record-2fset-response)
 
 [JSON Failed Delete a Record 2FSET Response](#json-failed-delete-a-record-2fset-response)
+
+[Edit a Record](#edit-a-record)
 
 [JSON Successful Edit a Record 2FSET Response](#json-successful-edit-a-record-2fset-response)
 
@@ -67,11 +73,8 @@ Once submitted and successful, the Response should return a Ref ID. An email or 
 
 Once successful, a new item should be added to the list.
 
-### JSON Successful Add a Record JSON Response
-
+### JSON Successful Add a Record 2FSET Response
 Note that when the response is successful, the ErrorCount value is blank. 
-
-```
 {
     "root": {
         "errorStatus": {
@@ -88,9 +91,8 @@ Note that when the response is successful, the ErrorCount value is blank.
         }
     }
 }
-```
 
-### JSON Failed Add a Record JSON Response
+### JSON Failed Add a Record 2FSet Response
 
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 
@@ -139,7 +141,7 @@ Pass the following into the body:
 
 `wd_2FA_RecAddress`: {Cell phone # or email}
 
-### JSON Successful Delete a Record JSON Response
+### JSON Successful Delete a Record 2FSET Response
 
 Note that when the response is successful, the ErrorCount value is blank. 
 
@@ -163,7 +165,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 ]
 ```
 
-###	JSON Failed Delete a Record JSON Response
+###	JSON Failed Delete a Record 2FSET Response
 
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 
@@ -246,7 +248,7 @@ Once submitted and successful, the Response should return a Ref ID. An email or 
 
 `wd_2FA_RecAddress`: {Cell phone # or email}
  
-### JSON Successful Edit a Record JSON Response
+### JSON Successful Edit a Record 2FSET Response
 
 Note that when the response is successful, the ErrorCount value is blank. 
 
@@ -269,7 +271,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 }
 ```
 
-### JSON Failed Edit a Record JSON Response
+### JSON Failed Edit a Record 2FSET Response
 
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
 
@@ -299,5 +301,3 @@ Note that when the response has failed, the ErrorCount value has a number, the R
     }
 }
 ```
-
-
