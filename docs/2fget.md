@@ -12,6 +12,14 @@ Gets the list. This is a GET request.
 
 To elaborate, the 2FGET command retrieves a list of devices, email addresses and cell phone numbers used for two factor authentication (2FA). Two factor authentication can protect Worldox Web 3.x from unauthorized access by setting a program password or using a password combined with an access code.  Worldox Web 3.x will prompt an end user to enter it when you first launch it or if you unlocked your PC or device and need to regain access to Worldox Web 3.x. 
 
+[2FGET Example](#2fget-example)
+
+[2FGET Parameters](#2fget-parameters)
+
+[JSON Successful 2FGET Response](#json-successful-2fget-response)
+
+[JSON Failed 2FGET Response](#json-failed-2fget-response)
+
 ### 2FGET Example 
 
 `http://{DOMAIN}/cgi-bin/wdwebcgi.exe?2FGET+wd_SID={SESSION} +HTMLOnOk=/v4/authentication/twoFactorDevice.json+HTMLOnFail=/v4/authentication/twoFactorDevice.json`
