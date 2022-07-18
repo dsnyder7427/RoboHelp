@@ -8,10 +8,8 @@ To elaborate, the 2FGET command retrieves a list of devices, email addresses and
 
 ### 2FGET Example 
 
-```
-+HTMLOnOk=/v4/authentication/twoFactorDevice.json+HTMLOnFail=/v4/authentication/twoFactorDevice.json
-http://{DOMAIN}/cgi-bin/wdwebcgi.exe?2FGET+wd_SID={SESSION}
-```
+`http://{DOMAIN}/cgi-bin/wdwebcgi.exe?2FGET+wd_SID={SESSION} +HTMLOnOk=/v4/authentication/twoFactorDevice.json+HTMLOnFail=/v4/authentication/twoFactorDevice.json`
+
 This will return the entire list.
 
 ## 2FGET Parameters
