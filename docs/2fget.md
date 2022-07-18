@@ -1,3 +1,10 @@
+---
+layout: de
+fault
+title: 2FGET
+nav_order: 23
+---
+
 ## 2FGET: TWO FACTOR AUTHENTICATION (2FA)
 
 **Note:** You will need Worldox Web 3.0 Rev: 140311 or newer to use this API command.
