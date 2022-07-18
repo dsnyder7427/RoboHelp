@@ -19,7 +19,11 @@ To add a record:
 Pass the following into the body:
 
 `wd_2FA_SendToAddr:` {Your email or cell phone # (number) of choice}
+
 `wd_2FA_SENDOBJECT:` {What this action is for, e.g., Worldox}
+
 `wd_2FA_SENDACTION:` {Why this action is, e.g., Worldox Web Authentication}
 
 Once submitted and successful, the Response should return a Ref ID. An email or text will be sent with an access code. Both are needed for the next step.
+
+
