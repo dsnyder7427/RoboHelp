@@ -1,6 +1,5 @@
 ---
-layout: de
-fault
+layout: default
 title: 2FGET
 nav_order: 23
 ---
