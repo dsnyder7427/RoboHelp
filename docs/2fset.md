@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2FSET
+title: 2FSET ADD/EDIT/DELETE: TWO FACTOR AUTHENTICATION (2FA)
 nav_order: 26
 ---
 
@@ -68,7 +68,10 @@ Once submitted and successful, the Response should return a Ref ID. An email or 
 Once successful, a new item should be added to the list.
 
 ### JSON Successful Add a Record JSON Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+
+```
 {
     "root": {
         "errorStatus": {
@@ -85,6 +88,7 @@ Note that when the response is successful, the ErrorCount value is blank.
         }
     }
 }
+```
 
 ### JSON Failed Add a Record JSON Response
 
