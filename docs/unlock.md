@@ -1,9 +1,22 @@
+---
+layout: default
+title: UNLOCK
+nav_order: 27
+---
+
 # UNLOCK
+
 The UNLOCK command unlocks a locked record.
-30.1	UNLOCK Example
+
+## UNLOCK Example
+
 The way to unlock a record is to call LOCK again but DO NOT pass a wd_list_RecNum. See LOCK for details.
-30.2	JSON Successful UNLOCK Response
+
+## JSON Successful UNLOCK Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+
+```
 {
     "root": {
         "data": {
@@ -24,9 +37,13 @@ Note that when the response is successful, the ErrorCount value is blank.
         }
     }
 }
- 
-30.3	JSON Failed UNLOCK Response
-Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+```
+
+## JSON Failed UNLOCK Response
+
+Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure. 
+
+```
 {
     "root": {
         "data": {
@@ -62,4 +79,4 @@ Note that when the response has failed, the ErrorCount value has a number, the R
         }
     }
 }
-
+```
