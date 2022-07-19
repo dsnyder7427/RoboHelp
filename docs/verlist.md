@@ -1,6 +1,14 @@
+---
+layout: default
+title: VERLIST
+nav_order: 28
+---
+
 # VERLIST
 
 The VERLIST command obtains the version list of a given file. It is a GET request.
+
+
 
 ## VERLIST Example
 
