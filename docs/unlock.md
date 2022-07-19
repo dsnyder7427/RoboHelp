@@ -8,6 +8,12 @@ nav_order: 27
 
 The UNLOCK command unlocks a locked record.
 
+[UNLOCK Example](#unlock-example)
+
+[JSON Successful UNLOCK Response](#json-successful-unlock-response)
+
+[JSON Failed RENAME Response](#json-failed-rename-response)
+
 ## UNLOCK Example
 
 The way to unlock a record is to call LOCK again but DO NOT pass a wd_list_RecNum. See LOCK for details.
@@ -41,7 +47,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 
 ## JSON Failed UNLOCK Response
 
-Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure. 
+Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure. 
 
 ```
 {
