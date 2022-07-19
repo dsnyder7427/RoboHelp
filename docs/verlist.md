@@ -1,30 +1,60 @@
+# VERLIST
+
 The VERLIST command obtains the version list of a given file. It is a GET request.
-31.1	VERLIST Example
-{Worldox Web Domain}  + 'cgi-bin/wdwebcgi.exe?VERLIST+wd_SID=' + {Worldox Web User Session) + '+wd_List_ID='+ x.LID + '+Wd_List_RecNum=' + x.RN + '+html=/v4/filelist/fileList.json' + '+skip=0+take=100'
-31.2	Parameters
-HTMLOnOK
+
+## VERLIST Example
+
+`{Worldox Web Domain}  + 'cgi-bin/wdwebcgi.exe?VERLIST+wd_SID=' + {Worldox Web User Session) + '+wd_List_ID='+ x.LID + '+Wd_List_RecNum=' + x.RN + '+html=/v4/filelist/fileList.json' + '+skip=0+take=100'`
+
+## VERSLIST Parameters
+
+`HTMLOnOK`
+
 This is the page to return on a successful call to VERLIST.
-v4\filelist\fileList.json
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
-HTMLOnFail
+
+`v4\filelist\fileList.json`
+
+**Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
+`HTMLOnFail`
+
 This is the page to return on a failed VERLIST.
-v4\filelist\fileList.json 
-{Worldox Web Domain} 
-	Is the domain name
-wd_SID
-	Is the session ID
-{Worldox Web User Session)
-	Is the variable
-wd_List_RecNum
+
+`v4\filelist\fileList.json`
+
+`{Worldox Web Domain}` 
+		
+Is the domain name
+
+`wd_SID`
+
+Is the session ID
+
+`{Worldox Web User Session)`
+
+Is the variable
+
+`wd_List_RecNum`
+
 Is the record number of the files in the list that you want to check out.
-wd_List_ID
+
+`wd_List_ID`
+
 Is the record number of a file from previous FINDFILES search. 
-Skip
-	Is where you start. 0 is the value. 
-Take
+
+`Skip`
+
+Is where you start. 0 is the value. 
+
+`Take`
+
 Is set to 500, which is the current default. Note: In the future, you can configure this to be a greater value. 
-31.3	JSON Successful VERLIST Response
+
+## JSON Successful VERLIST Response
+
 Note that when the response is successful, the ErrorCount value is blank. 
+
+```
 {
     "root": {
         "errorStatus": {
@@ -132,9 +162,13 @@ Note that when the response is successful, the ErrorCount value is blank.
         ]
     }
 }
+```
 
-31.4	JSON Failed VERLIST Response
+## JSON Failed VERLIST Response
+
 Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+
+```
 {
     "root": {
         "errorStatus": {
@@ -224,3 +258,4 @@ Note that when the response has failed, the ErrorCount value has a number, the R
         ]
     }
 }
+```
