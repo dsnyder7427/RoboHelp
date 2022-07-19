@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2FGET
+title: 2FGET (TWO FACTOR AUTHENTICATION)
 nav_order: 25
 ---
 
