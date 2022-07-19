@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2FSET
+title: 2FSET (TWO FACTOR AUTHENTICATION)
 nav_order: 26
 ---
 
