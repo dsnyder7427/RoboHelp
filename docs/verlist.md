@@ -52,7 +52,7 @@ Is set to 500, which is the current default. Note: In the future, you can config
 
 ## JSON Successful VERLIST Response
 
-Note that when the response is successful, the ErrorCount value is blank. 
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
@@ -166,7 +166,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 
 ## JSON Failed VERLIST Response
 
-Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure.  
 
 ```
 {
