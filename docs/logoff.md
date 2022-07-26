@@ -4,26 +4,54 @@ title: LOGOFF
 nav_order: 29
 ---
 
-32	LOGOFF
+# LOGOFF
+
 The LOGOFF command closes the Worldox Web Session.
-32.1	LOGOFF Example
+
+[LOGOFF Example](#logoff-example)
+
+[LOGOFF Parameters](#logoff-parameters)
+
+[JSON Successful LOGOFF Response](#json-successful-logoff-response)
+
+
+## LOGOFF Example
+
 /cgi-bin/wdwebcgi.exe?LOGOFF&wd_SID={{session}}
-32.2	Parameters
-{Worldox Web Domain} 
-	Is the domain name
-wd_SID
-	Is the session ID
-{Worldox Web User Session)
-	Is the variable
-HTMLOnOK
+
+## LOGOFF Parameters
+
+`{Worldox Web Domain}`
+
+Is the domain name
+
+`wd_SID`
+	
+Is the session ID
+
+`{Worldox Web User Session)`
+
+Is the variable
+
+`HTMLOnOK`
+
 This is the page to return on a successful call to LOGOFF.
-v4 \authentication\logoffSucc.json
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
-HTMLOnFail
+
+`v4 \authentication\logoffSucc.json`
+
+**Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
+`HTMLOnFail`
+
 This is the page to return on a failed LOGOFF.
-v4 \authentication\logoffFail.json
-Note: api is deprecated but still can be used. Going forward v4 is the best practice.
-32.3	JSON Successful LOGOFF Response
+
+`v4 \authentication\logoffFail.json`
+
+**Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
+## JSON Successful LOGOFF Response
+
+```
 {
     "root": {
         "data": {
@@ -31,5 +59,7 @@ Note: api is deprecated but still can be used. Going forward v4 is the best prac
         }
     }
 }
-Note: There is no failed response for LOGOFF.
+```
+
+**Note:** There is no failed response for LOGOFF.
 
