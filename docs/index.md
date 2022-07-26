@@ -31,7 +31,7 @@ See the Worldox GX4 Site Planning Guide for a complete discussion of how to set 
 
 See the Worldox Deployment Options and Security white paper available on the Knowledge Base. It describes Worldox Professional, Enterprise, Cloud and Web deployments.
 
-You can also view helpful Worldox How-to-videos at: [http://www.worldox.com/howtovideos](http://www.worldox.com/howtovideos "Worldox How To Videos").
+You can also view helpful Worldox How-to-videos at: [http://www.worldox.com/support/how-to-videos](http://www.worldox.com/support/how-to-videos "Worldox How To Videos").
 
 A few general notes about using the Worldox SDK:
 
