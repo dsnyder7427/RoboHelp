@@ -1,3 +1,9 @@
+---
+layout: default
+title: LOGOFF
+nav_order: 29
+---
+
 32	LOGOFF
 The LOGOFF command closes the Worldox Web Session.
 32.1	LOGOFF Example
