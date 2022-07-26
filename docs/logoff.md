@@ -17,7 +17,7 @@ The LOGOFF command closes the Worldox Web Session.
 
 ## LOGOFF Example
 
-/cgi-bin/wdwebcgi.exe?LOGOFF&wd_SID={{session}}
+`/cgi-bin/wdwebcgi.exe?LOGOFF&wd_SID={{session}}`
 
 ## LOGOFF Parameters
 
