@@ -6,7 +6,7 @@ nav_order: 14
 
 # Upload to IIS
 
-The UPLOAD to IIS command uploads the file to IIS. This is a POST request. It passes the file as form data in the Body.
+The UPLOAD to IIS command uploads the file to IIS. This is a POST request. It passes the file as form data in the **Body**.
 
 [UPLOAD to IIS Example](#upload-to-iis-example)
 
