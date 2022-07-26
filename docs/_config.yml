@@ -1,4 +1,3 @@
 remote_theme: just-the-docs/just-the-docs
-future: true
-
-theme: jekyll-theme-cayman
+title: Worldox Web API
+description: Bookmark this to keep an eye on my project updates!
