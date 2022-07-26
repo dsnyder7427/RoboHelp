@@ -19,6 +19,7 @@ The UPLOAD to IIS command uploads the file to IIS. This is a POST request. It pa
  
 ![upload iis](/docs/images/upload_iis.png)
 
+![upload iis](dsnyder7427.github.io/docs/images/upload_iis.png)
  
 **Note:** After you use UPLOAD to IIS, you can use the NEWFILE command.
 
