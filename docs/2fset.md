@@ -54,6 +54,8 @@ Pass the following into the body:
 
 Once submitted and successful, the Response should return a Ref ID. An email or text will be sent with an access code. Both are needed for the next step.
 
+![2Fset](2Fset.png)
+
 2: Make another POST request to the same API (shown below) but change the Body. 
 `http://{DOMAIN}/cgi-bin/wdwebcgi.exe?2FSET+wd_SID={SESSION}+HTMLOnOk=/v4/authentication/setTwoFactorDevice.json+HTMLOnFail=/v4/authentication/setTwoFactorDevice.json` 
 
