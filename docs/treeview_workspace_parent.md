@@ -5,7 +5,7 @@ nav_order: 24
 ---
 
 
-# TREEVIEW (WORKSPACE PARENT)
+# TREEVIEW WORKSPACE PARENT
 
 The TREEVIEW command displays the side navigation pane. 
 
