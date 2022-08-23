@@ -12,7 +12,7 @@ The RENAME command copies, moves, edits, deletes, and creates new versions of th
 
 [RENAME Parameters](#rename-parameters)
 
-[Available Flags for wd_List_RENAME Flags](#available-flags-for-wd-list-rename-flags)
+[Available Flags for wd List RENAME Flags](#available-flags-for-wd-list-rename-flags)
 
 [JSON Successful RENAME Response](#json-successful-rename-response)
 
