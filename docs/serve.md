@@ -114,7 +114,7 @@ or
 
 `5` to close the tree.
 
-For information about TREEVIEW (Workspace Parent), see the [TREEVIEW (Workspace Parent)](#treeview-(workspace-parent) section.
+For information about TREEVIEW (Workspace Parent), see the [TREEVIEW Workspace Parent)](#treeview-workspace-parent) section.
 
 **sideMenu/favorites.json**
 
