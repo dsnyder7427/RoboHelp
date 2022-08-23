@@ -114,7 +114,7 @@ or
 
 `5` to close the tree.
 
-For information about TREEVIEW (Workspace Parent), see the [TREEVIEW (Workspace Parent)](https://dsnyder7427.github.io/Worldox-Web-API/treeview_workspace_parent.html) section. 
+For information about TREEVIEW (Workspace Parent), see the [TREEVIEW Workspace Parent](https://dsnyder7427.github.io/Worldox-Web-API/treeview_workspace_parent.html) section. 
 
 **sideMenu/favorites.json**
 
