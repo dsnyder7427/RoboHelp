@@ -34,7 +34,7 @@ The RENAME command copies, moves, edits, deletes, and creates new versions of th
 
 `wd_List_Rename_Flags`
 
-What kind of rename? (Similar to `WDAPI_RF_FLAG_*`). For a list of total available flags, see [Available Flags for wd_List_RENAME Flags](#available-flags-for-wd-list-rename-flags).
+What kind of rename? (Similar to `WDAPI_RF_FLAG_*`). For a list of total available flags, see [Available Flags for wd_List RENAME Flags](#available-flags-for-wd-list-rename-flags).
 
   Optional: 
   
@@ -79,7 +79,7 @@ What kind of rename? (Similar to `WDAPI_RF_FLAG_*`). For a list of total availab
 **Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
 
 
-## Available Flags for wd_List_Rename_Flags
+## Available Flags for wd List Rename Flags
 
 The following table describes the available flags for `wd_List_Rename_Flags`.
 
