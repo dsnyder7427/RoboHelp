@@ -7,7 +7,7 @@ nav_order: 24
 
 # TREEVIEW WORKSPACE PARENT
 
-The TREEVIEW command displays the side navigation pane. 
+The TREEVIEW (Workspace parent) command displays the side navigation pane. 
 
 [TREEVIEW Example](#treeview-example)
 
