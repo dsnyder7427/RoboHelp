@@ -68,7 +68,7 @@ For example, https://phoenix.wdsaas.com:443/^PATH^
 
 ## JSON Successful PREVIEW Response
 
-Note that when the response is successful, the ErrorCount value is blank. 
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
