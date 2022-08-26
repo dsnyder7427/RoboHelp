@@ -13,7 +13,7 @@ The TREEOPEN command expands a branch of a parent child list. Please also see `/
 [TREEOPEN Parameters](#treeopen-parameters)
 
 Do the following steps before you can send a TREEOPEN command.
-1.	Send TREEVIEW. This will return a list of Workspaces and a List ID which will needed for TREEOPEN. See TREEVIEW (Workspace Parent) for details.
+1.	Send TREEVIEW. This will return a list of Workspaces and a List ID which will needed for TREEOPEN. See [TREEVIEW Workspace Parent](https://dsnyder7427.github.io/Worldox-Web-API/treeview_workspace_parent.html) for details.
 2.	Send a SERVE command. This will return a list of Projects inside of the selected Workspace. Each Project has a RecNum that is needed for TREEOPEN.
 3.	Send TREEOPEN. This will return all the files inside of the Project.
 
