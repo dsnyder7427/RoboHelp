@@ -16,7 +16,7 @@ The UNLOCK command unlocks a locked record.
 
 ## UNLOCK Example
 
-The way to unlock a record is to call LOCK again but DO NOT pass a wd_list_RecNum. See LOCK for details.
+The way to unlock a record is to call LOCK again but DO NOT pass a wd_list_RecNum. See [LOCK](https://dsnyder7427.github.io/Worldox-Web-API/lock.html) for details.
 
 ## JSON Successful UNLOCK Response
 
