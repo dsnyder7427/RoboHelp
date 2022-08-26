@@ -46,7 +46,7 @@ The OPENWDL command creates a temporary WDL or project in Worldox.
 	
 ## JSON Successful OPENWDL Example
 
-Note that when the response is successful, the ErrorCount value is blank. 
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
