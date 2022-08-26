@@ -25,20 +25,30 @@ This is the page to return on a successful call to DOWNLOAD.
 v4 \fileActions\download.json
 
 **Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
+
 `HTMLOnFail`
+
 This is the page to return on a failed DOWNLOAD.
+
 `v4 \fileActions\download.json`
+
 **Note:** `api`  is deprecated but still can be used. Going forward v4 is the best practice.
+
 `{Worldox Web Domain}` 
 	Is the domain name.
+
 `wd_SID`
 	Is the session ID
+
 `{Worldox Web User Session)`
 	Is the variable
+
 `wd_List_RecNum`
 Is the record number of the files in the list that you want to download.
+
 `wd_List_ID`
 Is the record number of the file on the list that you want to download 
+
 `wd_List_Offset`
 (Starting offset) set to 1
 
