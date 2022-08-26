@@ -20,7 +20,7 @@ The way to unlock a record is to call LOCK again but DO NOT pass a wd_list_RecNu
 
 ## JSON Successful UNLOCK Response
 
-Note that when the response is successful, the ErrorCount value is blank. 
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
