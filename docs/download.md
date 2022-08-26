@@ -20,28 +20,46 @@ The DOWNLOAD command prepares a file for download. This is a GET request.
 `{Worldox Web Domain}  +  'cgi-bin/wdwebcgi.exe?DOWNLOAD&wd_SID=' + {Worldox Web User Session) + '&html=v4/fileActions/download.json&wd_List_RecNum=' + x.RN + '&wd_List_ID=' + x.LID + '&wd_List_Offset=' + x.LN`
 
 ## DOWNLOAD Parameters
+
 `HTMLOnOK`
+
 This is the page to return on a successful call to DOWNLOAD.
+
 v4 \fileActions\download.json
 
 **Note:** `api` is deprecated but still can be used. Going forward v4 is the best practice.
-`HTMLOnFail`
-This is the page to return on a failed DOWNLOAD.
-`v4 \fileActions\download.json`
-**Note:** `api`  is deprecated but still can be used. Going forward v4 is the best practice.
-`{Worldox Web Domain}` 
-	Is the domain name.
-`wd_SID`
-	Is the session ID
-`{Worldox Web User Session)`
-	Is the variable
-`wd_List_RecNum`
-Is the record number of the files in the list that you want to download.
-`wd_List_ID`
-Is the record number of the file on the list that you want to download 
-`wd_List_Offset`
-(Starting offset) set to 1
 
+`HTMLOnFail`
+
+This is the page to return on a failed DOWNLOAD.
+
+`v4 \fileActions\download.json`
+
+**Note:** `api`  is deprecated but still can be used. Going forward v4 is the best practice.
+
+`{Worldox Web Domain}` 
+	
+	Is the domain name.
+
+`wd_SID`
+	
+	Is the session ID
+
+`{Worldox Web User Session)`
+	
+	Is the variable
+
+`wd_List_RecNum`
+
+Is the record number of the files in the list that you want to download.
+
+`wd_List_ID`
+
+Is the record number of the file on the list that you want to download 
+
+`wd_List_Offset`
+
+(Starting offset) set to 1
 
 ## JSON SUCCESSFUL DOWNLOAD Response
 
