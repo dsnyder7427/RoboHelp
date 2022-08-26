@@ -60,7 +60,7 @@ The UPLOAD command takes the uploaded file of an existing document and overwrite
 	Use the same FileLID (file list ID) that is returned from NEWFILE.
 ## JSON Successful Upload to Worldox Response
 
-Note that when the response is successful, the ErrorCount value is blank. 
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
@@ -86,7 +86,7 @@ Note that when the response is successful, the ErrorCount value is blank.
  
 ## JSON Failed Upload to Worldox Response
 
-Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure. 
+Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure. 
 
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
