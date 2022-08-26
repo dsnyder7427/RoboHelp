@@ -6,7 +6,7 @@ nav_order: 23
 
 # TREEOPEN (WORKSPACE CHILDREN) 
 
-The TREEOPEN command expands a branch of a parent child list. Please also see `/v4/sideMenu/expandBranch.json`.
+The TREEOPEN command expands a branch of a parent child list. Please also see `/v4/sideMenu/expandBranch.json` in the SERVE Examples for Different Pages section for [SERVE](https://dsnyder7427.github.io/Worldox-Web-API/serve.html).
 
 [TREEOPEN Example](#treeopeon-example)
 
