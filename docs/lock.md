@@ -43,7 +43,7 @@ Optional:
 
 ## JSON Successful LOCK Response
 
-Note that when the response is successful, the ErrorCount value is blank. 
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
