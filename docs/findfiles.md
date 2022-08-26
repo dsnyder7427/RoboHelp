@@ -238,8 +238,8 @@ Note that when the response is successful, the ErrorCount value is blank.
 }
 ```
 ## Note about Successful JSON (FINDFILES) Response
-Successful JSON output for FINDFILES can sometimes show an ErrorCount of 1 if no data is returned. FINDFILES is used for folders, templates, Favorites, filters and projects (WDL files). 
-The following example shows that a WDL was created. It is still successful output even though an error says, wd_Error_RCTX": "WDRC_ZERO_PROJECT_CLEAN. In this case, there are no files in the project.
+Successful JSON output for FINDFILES can sometimes show an 'ErrorCount` of 1 if no data is returned. FINDFILES is used for folders, templates, Favorites, filters and projects (WDL files). 
+The following example shows that a WDL was created. It is still successful output even though an error says, "wd_Error_RCTX": "WDRC_ZERO_PROJECT_CLEAN". In this case, there are no files in the project.
 
   ```
   {
@@ -277,7 +277,7 @@ The following example shows that a WDL was created. It is still successful outpu
 
 ## JSON Failed FINDFILES Response
   
-Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure.  
 
   ```
   {
