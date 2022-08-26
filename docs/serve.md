@@ -287,7 +287,7 @@ Is the list ID of file
 
 Reread File was used for this successful SERVE example in JSON.
 
-Note that when the response is successful, the ErrorCount value is blank. 
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
@@ -361,7 +361,7 @@ Note that when the response is successful, the ErrorCount value is blank.
 
 Reread File was used for this failed SERVE example in JSON.
 
-Note that when the response has failed, the ErrorCount value has a number, the RCTX value determines what the error is. The Worldox API always returns a 200 status even on failure.  
+Note that when the response has failed, the `ErrorCount` value has a number, the `RCTX` value determines what the error is. The Worldox API always returns a `200` status even on failure.  
 
 ```
 {
