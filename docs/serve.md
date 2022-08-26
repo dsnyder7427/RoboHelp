@@ -456,7 +456,7 @@ Note that when the response has failed, the ErrorCount value has a number, the R
 To create a temporary WDL file, you must perform the following steps in order.
 
 1. Login (if your session has ended). If necessary, see [LOGON](https://dsnyder7427.github.io/Worldox-Web-API/logon.html) for details.
-2. Send OPENWDL. For details, see [OPENWDL](https://dsnyder7427.github.io/Worldox-Web-API/openwdl.html)Create Temp WDL.
+2. Send OPENWDL. For details, see [OPENWDL](https://dsnyder7427.github.io/Worldox-Web-API/openwdl.html) Create Temp WDL.
 3. Send FINDFILES to create a temporary list (Create Temp List). (FINDFILES is used for the Get List SERVE command.) You will need the List ID from Create Temp List output. For details, see [FINDFILES](https://dsnyder7427.github.io/Worldox-Web-API/findfiles.html).
 4. Use the SERVE command, FILEWDL Update Temp WDL.  For details, see the SetField.json example(Update Temp WDL) in [FILEWDL](https://dsnyder7427.github.io/Worldox-Web-API/filewdl.html). 
 
@@ -467,7 +467,7 @@ To create a temporary WDL file, you must perform the following steps in order.
 2. Send OPENWDL. For details, see [OPENWDL](https://dsnyder7427.github.io/Worldox-Web-API/openwdl.html)Create Temp WDL.
 3. Send FINDFILES to create a temporary list (Create Temp List). (FINDFILES is used for the Get List SERVE command.) You will need the List ID from Create Temp List output. For details, see [FINDFILES](https://dsnyder7427.github.io/Worldox-Web-API/findfiles.html).
 4. Use the SERVE command, FILEWDL Update Temp WDL.  For details, see the SetField.json example(Update Temp WDL) in [FILEWDL](https://dsnyder7427.github.io/Worldox-Web-API/filewdl.html). 
-5. Send DOWNLOAD. For details, see [DOWNLOAD](https://dsyder7427.github.io/Worldox-Web-API/download.html). **Note:** Pass a RecNum of -1 if there is no record number.
+5. Send DOWNLOAD. For details, see [DOWNLOAD](https://dsnyder7427.github.io/Worldox-Web-API/download.html). **Note:** Pass a RecNum of -1 if there is no record number.
 
 ## JSON Successful Download Output for a Temporary WDL File
 
