@@ -111,7 +111,7 @@ The following table describes the available flags for `wd_List_Rename_Flags`.
 
 ## JSON Successful RENAME Response
 
-Note that when the response is successful, the ErrorCount value is blank. 
+Note that when the response is successful, the `ErrorCount` value is blank. 
 
 ```
 {
